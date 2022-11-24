@@ -6,7 +6,31 @@ function App() {
 
   return (
     <div className="App">
-      <div className='header'>
+      <nav className="nav">
+        <div className='brand__title'>CIMO</div>
+        <a href="#" className='toggle-button'>
+          <span className='bar'></span>
+          <span className='bar'></span>
+          <span className='bar'></span>
+        </a>
+        <div className='nav__navigation'>
+          <ul className="nav__list">
+            <li className="nav__item">
+              <a href="" className="nav__link">Inicio</a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link">Nosotros</a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link">Servicios & Precios</a>
+            </li>
+            <li className="nav__item">
+              <a href="" className="nav__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      {/* <div className='header'>
         <div className='header__container'>
           <div className='header__elements'>
             <div className='header__logo'>
@@ -48,7 +72,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
