@@ -126,11 +126,7 @@ body {
 }
 
 .nav.open{
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom: 1px solid #1b1b1b;
-
-  box-shadow: 10px 10px 15px #1b1b1b;
+  
 }
 
 
@@ -222,10 +218,7 @@ body {
 
 @media screen and (min-width: 800px) {
   .nav.open{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom: none;
-    box-shadow: none;
+    
   }
 }
 
@@ -234,4 +227,14 @@ body {
   background-image: linear-gradient(#24252580, #b380136c), url('../public/images/fondo.jpg');
   background-size: cover;
   background-position: center;
+}
+
+h1{
+  text-align: center;
+  padding-top: 3rem;
+  color: black;
+}
+.title__inicio{
+  color: whitesmoke;
+  
 }
