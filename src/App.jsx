@@ -1,44 +1,29 @@
-import { useState } from 'react'
+import * as React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Root from './components/web/Root';
+
+import Header from './components/web/Header';
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Inicio from "./components/pages/Inicio";
+import Nosotros from "./components/pages/Nosotros";
+import Servicios from "./components/pages/Servicios";
+import Contacto from "./components/pages/Contacto";
 
 function App() {
 
-  const [openHamburguer, setOpenHamburguer] = useState(false);
-
   return (
-    <div className="App">
-      <nav
-        className={`nav ${openHamburguer && 'open'}`}>
-        <div className='brand__title'>CIMO</div>
-        <div 
-          className={`toggle-button ${openHamburguer && 'open'}`} 
-          onClick={() => setOpenHamburguer(!openHamburguer)}>
-          <span className='bar'></span>
-          <span className='bar'></span>
-          <span className='bar'></span>
-        </div>
-        <div 
-          className={`nav__navigation ${openHamburguer && 'open'}`} >
-          <ul className="nav__list">
-            <li className="nav__item">
-              <a href="" className="nav__link">Inicio</a>
-            </li>
-            <li className="nav__item">
-              <a href="" className="nav__link">Nosotros</a>
-            </li>
-            <li className="nav__item">
-              <a href="" className="nav__link">Servicios & Precios</a>
-            </li>
-            <li className="nav__item">
-              <a href="" className="nav__link">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div className='background__image'>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Root />}>
+          <Route element={<Inicio />} path="/" />
+          <Route element={<Nosotros />} path="/nosotros" />
+          <Route element={<Servicios />} path="/servicios" />
+          <Route element={<Contacto />} path="/contacto" />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
