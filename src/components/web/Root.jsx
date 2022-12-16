@@ -1,4 +1,5 @@
 import { Outlet } from "react-router"
+import Footer from "./Footer"
 import Header from "./Header"
 
 
@@ -9,6 +10,9 @@ function Root() {
         <Header></Header>
       </header>
       <Outlet />
+      <footer>
+        <Footer></Footer>
+      </footer>
     </main>
   )
 }
