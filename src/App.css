@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
 *{
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto',sans-serif;
+  font-family: 'El Messiri', sans-serif;
   background-color: #cfec00;
   margin: 0;
   padding: 0;
@@ -214,27 +216,33 @@ body {
     flex-direction: column;
     padding-bottom: 1rem;
   }
-}
 
-@media screen and (min-width: 800px) {
-  .nav.open{
-    
+  .title__inicio{
+    font-size: 1.5rem;
   }
 }
 
+@media screen and (min-width: 800px) {
+  .title__inicio{
+    font-size: 3rem;
+  }
+}
+
+/* Inicio Page */
 .background__image{
   height: 100vh;
-  background-image: linear-gradient(#24252580, #b380136c), url('../public/images/fondo.jpg');
+  background-image: linear-gradient(#24252580, #b380136c), url('/images/fondo.jpg');
   background-size: cover;
   background-position: center;
 }
 
-h1{
+.title__inicio{
+  /* font-weight: 700; */
+  color: whitesmoke;
   text-align: center;
   padding-top: 3rem;
-  color: black;
-}
-.title__inicio{
-  color: whitesmoke;
-  
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  line-height: 2;
+  letter-spacing: 0.2rem;
 }
