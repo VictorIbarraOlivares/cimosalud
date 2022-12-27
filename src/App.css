@@ -303,6 +303,14 @@ body {
   border-radius: 2em;
 }
 
+.card-fono{
+  display: flex;
+  text-decoration: none;
+  font-weight:bolder;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
 .card-map{
   width: 100%;
   display: block;
