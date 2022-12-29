@@ -8,7 +8,9 @@ function Header() {
     <div>
       <nav
         className={`nav ${openHamburguer && 'open'}`}>
-        <div className='brand__title'>CIMO</div>
+        <div className='brand__title'>
+          <img src="images/logo_navbar.png" alt="Logo de CIMO Salud" className='brand__logo' />
+        </div>
         <div
           className={`toggle-button ${openHamburguer && 'open'}`}
           onClick={() => setOpenHamburguer(!openHamburguer)}>

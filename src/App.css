@@ -14,8 +14,8 @@ body {
 
 .toggle-button {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 3.2rem;
+  right: 4rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -109,15 +109,18 @@ body {
 }
 
 .brand__title {
-  font-size: 1.5rem;
-  margin: 1rem;
-  font-weight: 600;
+  margin: 1rem 4rem;
+  display: flex;
+}
+
+.brand__logo {
+  width: 7rem;
+  height: auto;
+  object-fit: fill;
 }
 
 .nav__navigation{
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
+  margin-right: 4rem;
 }
 
 .nav__navigation.open{
