@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function Inicio() {
   return (
@@ -5,6 +6,7 @@ function Inicio() {
       <div className='background__image'>
         <h1 className="title__inicio" >Centro Integral Medico y Odontológico</h1>
       </div>
+
       <div className="info__principal">
         <div className="card__info">
           <div className="card__info__img">
@@ -39,6 +41,26 @@ function Inicio() {
           </div>
           <p className="card__info__title">Visitanos</p>
           <p className="card__info__paragraph">Estamos en Padre mariano #10, oficina 701 - Providencia, Santiago <br /> A pasos del Metro Pedro de Valdivia L1</p>
+        </div>
+      </div>
+
+      <div className="info__doc">
+        <div className="info__doc__texto">
+          <p className="info__doc__texto__principal">Mejorando la calidad de vida a través de mejores tratamientos para su salud.</p>
+          <p className="info__doc__texto__secundario">Trabajaremos con usted para desarrollar planes de atención individualizados, incluido el manejo de enfermedades crónicas. Estamos comprometidos a ser la principal red de atención médica de la región que brinda atención centrada en el paciente que inspira la excelencia clínica y de servicio.</p>
+          <div className="info__doc__texto__footer">
+            <div>
+              <Link to="/nosotros" className="info__doc__texto__footer__link">Conozca a nuestros médicos</Link>
+            </div>
+            
+            <div className='info__doc__texto__footer__doctor'>
+              <p className='info__doc__texto__footer__doctor__nombre'>Arturo Vidal</p>
+              <p className='info__doc__texto__footer__doctor__especialidad'>Cirujano Copete</p>
+            </div>
+          </div>
+        </div>
+        <div className="info__doc__image__content">
+          <img src="images/docs/arturo_vidal.jpg" alt="" className='info__doc__image'/>
         </div>
       </div>
     </div>
