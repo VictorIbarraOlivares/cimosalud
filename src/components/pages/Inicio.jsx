@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import { faBookMedical, faHouseMedical, faInfoCircle, faKitMedical, faPumpMedical, faTooth, faTruckMedical, faUserDoctor } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Inicio() {
   return (
@@ -61,6 +63,60 @@ function Inicio() {
         </div>
         <div className="info__doc__image__content">
           <img src="images/docs/arturo_vidal.jpg" alt="" className='info__doc__image'/>
+        </div>
+      </div>
+
+      <div className='info__mision'>
+        <p className='info__mision__paragraph'>"Nuestra misión es recuperar la autoestima de las personas. ¡La sonrisa en los rostros de nuestros pacientes no tiene precio!"</p>
+        <div className='info__mision__servicios'>
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faBookMedical} className='info__mision__card__icon'/>
+              Endodoncias
+            </Link>
+          </div>
+
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faUserDoctor} className='info__mision__card__icon'/>
+              Limpieza y profilaxis
+            </Link>
+          </div>
+
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faKitMedical} className='info__mision__card__icon'/>
+              Restauraciones
+            </Link>
+          </div>
+
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faTruckMedical} className='info__mision__card__icon'/>
+              Exodoncias
+            </Link>
+          </div>
+
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faTooth} className='info__mision__card__icon'/>
+              Prótesis
+            </Link>
+          </div>
+
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faHouseMedical} className='info__mision__card__icon'/>
+              Estética
+            </Link>
+          </div>
+
+          <div className='info__mision__card'>
+            <Link to="/servicios" className="info__mision__card__link">
+              <FontAwesomeIcon icon={faInfoCircle} className='info__mision__card__icon'/>
+              Y mucho más
+            </Link>
+          </div>
         </div>
       </div>
     </div>
