@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+/* Animación con keyframe llamada "latidos" */
+@keyframes latidos {
+  from { transform: none; }
+  50% { transform: scale(1.4); }
+  to { transform: none; }
+}
+
 body {
   font-family: 'El Messiri', sans-serif;
   background-color: #cfec00;
@@ -254,12 +261,13 @@ body {
 .info__doc{
   display: grid;
   grid-template-columns: 60% 40%;
-  background-color: white;
   padding-left: 1rem;
   padding-right: 1rem;
   gap: 0.2rem;
   /* height: 10rem; */
   padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: linear-gradient(white, #435ba1);
 }
 
 .info__doc__texto{
@@ -276,7 +284,8 @@ body {
 }
 
 .info__doc__texto__secundario{
-  color: #435ba1;
+  font-size: large;
+  color: #202020;
   padding-left: 12rem;
   padding-right: 12rem;
   padding-top: 2rem;
@@ -294,21 +303,23 @@ body {
 }
 
 .info__doc__texto__footer__link{
-  color: #7bd626;
+  /* color: #7bd626; */
+  color: white;
   text-decoration: none;
   font-weight: 900;
   padding: 1rem 1rem;
   /* line-height: 2.5rem; */
   /* display: block; */
   /* position: relative; */
-  border: 2px solid #7bd626;
+  border: 2px solid #2a438f;
   border-radius: 2rem;
   transition: 0.8s;
 }
 
 .info__doc__texto__footer__link:hover{
   color: white;
-  background-color: #7bd626;
+  background-color: #2a438f;
+  border-color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
 }
 
@@ -317,12 +328,12 @@ body {
 }
 
 .info__doc__texto__footer__doctor__nombre{
-  color: #2a438f;
+  color: white;
   font-weight: 900;
 }
 
 .info__doc__texto__footer__doctor__especialidad{
-  color: #7bd626;
+  color: white;
   font-weight: 400;
 }
 
@@ -335,6 +346,77 @@ body {
   border-radius: 1.5rem;
   width: 30rem;
   height: 27rem;
+}
+
+.info__mision{
+  height: auto;
+  background-image: url('/images/fondo_mision.svg');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.info__mision__paragraph{
+  color: white;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  letter-spacing: 0.2rem;
+}
+
+.info__mision__servicios{
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.info__mision__card{
+  background-color: white;
+  width: 90%;
+  margin: 2rem auto;
+  box-shadow: 0.2rem 0.2rem 0.6rem;
+  border-radius: 0.5em;
+  letter-spacing: 0.1rem;
+  display: flex;
+  transition: 0.8s;
+  text-decoration: none;
+}
+
+.info__mision__card__link{
+  color: #2a438f;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+}
+
+.info__mision__card__icon{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  font-size: 1.7rem;
+  animation: latidos 1.7s infinite;
+	transform-origin: center;
+}
+
+.info__mision__card:hover .info__mision__card__icon{
+  color: #b7ce0d;
+}
+
+.info__mision__card:hover .info__mision__card__link{
+  color: white;
+}
+
+.info__mision__card:hover{
+  background-color: #2a438f;
+}
+
+.not__cursor__pointer{
+  cursor: default;
 }
 
 /* Footer */
@@ -491,6 +573,65 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
+@media screen and (max-width:1380px) {
+  .info__doc__texto__footer{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .info__doc__texto__principal{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .info__doc__texto__secundario{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .info__doc__image{
+    width: 26rem;
+  }
+
+  .info__doc__image__content{
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:1060px) {
+  .info__mision{
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  .info__mision__paragraph{
+    font-size: 1.7rem;
+  }
+  .info__mision__servicios{
+    grid-template-columns: repeat(3, 33%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* .info__mision__card__link{
+    font-size: 0.7rem;
+  }
+  .info__mision__card__icon{
+    font-size: 1rem;
+  } */
+
+  .info__doc{
+    grid-template-columns: 100%;
+  }
+
+  .info__doc__texto__footer__doctor{
+    display: none;
+  }
+
+  .info__doc__image__content{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
   body{
     background-color: rgba(231, 88, 45, 0.877);
@@ -583,11 +724,66 @@ body {
   .info__doc__image{
     width: 23rem;
   }
+
+  .info__mision{
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  .info__mision__paragraph{
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .info__mision__servicios{
+    grid-template-columns: repeat(2, 50%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .info__mision__card{
+    margin: 1rem auto;
+  }
+
+  .info__mision__card__link{
+    font-size: 0.7rem;
+  }
+
+  .info__mision__card__icon{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .title__inicio{
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .info__principal{
     grid-template-columns: repeat(1, 100%);
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .img__info{
+    width: 5rem;
+    height: 3.5rem;
+  }
+  .card__info__title{
+    font-size: 1rem;
+  }
+  .card__info__paragraph{
+    font-size: 0.9rem;
+  }
+
+  .info__doc__texto__footer__doctor{
+    display: block;
+  }
+
+  .info__doc__image__content{
+    display: flex;
   }
 }
 
@@ -612,11 +808,5 @@ body {
 
   .info__doc__image{
     width: 95%;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .title__inicio{
-    font-size: 3rem;
   }
 }

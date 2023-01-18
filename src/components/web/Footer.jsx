@@ -13,7 +13,7 @@ function Footer() {
               <img src="images/logo.PNG" alt="Logo de CIMO Salud" className='img__logo' />
             </div>
             <p className='logo__paragraph'>Nuestro objetivo es brindar atención de calidad de una manera cortés, respetuosa y compasiva. Esperamos que nos permita cuidarlo y nos esforzaremos, por ser la primera y mejor opción para el cuidado de la salud de su familia.</p>
-            <a href="https://api.whatsapp.com/send?phone=56999609708&amp;text=Wuena CIMO SALUD !!!" target="_blank" rel="nofollow" class="logo-reserva">
+            <a href="https://api.whatsapp.com/send?phone=56999609708&amp;text=Wuena CIMO SALUD !!!" target="_blank" rel="nofollow" className="logo-reserva">
                 <FontAwesomeIcon icon={faBookMedical} className='card-logo-icon-reserva'/>
                 <span className='card-fono-number'>Reserve una cita</span>
               </a>
@@ -25,7 +25,7 @@ function Footer() {
               <p className="card-title">Contacto</p>
               <p className="card-paragraph">Si tiene alguna pregunta o necesita ayuda, no dude en contactarnos.</p>
 
-              <a href="tel:+56999609708" target="_blank" class="card-fono">
+              <a href="tel:+56999609708" target="_blank" className="card-fono">
                 <FontAwesomeIcon icon={faPhone}/>
                 <span className='card-fono-number'>+56 9 9960 9708</span>
               </a>
