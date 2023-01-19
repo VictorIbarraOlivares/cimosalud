@@ -28,7 +28,7 @@ function Header() {
               <Link to="/nosotros" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Nosotros</Link>
             </li>
             <li className="nav__item">
-              <Link to="/servicios" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Servicios & Precios</Link>
+              <Link to="/servicios" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Servicios</Link>
             </li>
             <li className="nav__item">
               <Link to="/contacto" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Contacto</Link>
