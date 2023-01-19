@@ -264,14 +264,12 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   gap: 0.2rem;
-  /* height: 10rem; */
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-image: linear-gradient(white, #435ba1);
 }
 
 .info__doc__texto{
-  /* background-color: red; */
   letter-spacing: 0.15rem;
 }
 
@@ -293,7 +291,6 @@ body {
 }
 
 .info__doc__texto__footer{
-  /* background-color: red; */
   display: grid;
   grid-template-columns: 70% 30%;
   padding-left: 11rem;
@@ -303,14 +300,10 @@ body {
 }
 
 .info__doc__texto__footer__link{
-  /* color: #7bd626; */
   color: white;
   text-decoration: none;
   font-weight: 900;
   padding: 1rem 1rem;
-  /* line-height: 2.5rem; */
-  /* display: block; */
-  /* position: relative; */
   border: 2px solid #2a438f;
   border-radius: 2rem;
   transition: 0.8s;
@@ -338,7 +331,6 @@ body {
 }
 
 .info__doc__image__content{
-  /* background-color: cadetblue; */
   padding-top: 1.2rem;
 }
 
@@ -573,6 +565,123 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
+/* Contacto Page */
+.page__contacto{
+  background-color: #e0e0e0;
+}
+.content__map{
+  width: 100%;
+  height: 80vh;
+}
+
+.map__contacto{
+  width: 100%;
+  height: 100vh;
+}
+
+.card__contacto{
+  position: relative;
+  background-color: white;
+  width: 40%;
+  margin-top: -20rem;
+  margin-left: 2rem;
+  box-shadow: 0.6rem 0.6rem 0.8rem;
+  border-radius: 1em;
+  letter-spacing: 0.15rem;
+}
+
+.card__contacto__container{
+  padding: 1.3rem 2rem 1rem;
+  text-align: left;
+}
+
+.card__contacto__title{
+  color: #435ba1;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.card__contacto__paragraph{
+  padding: 1rem 1rem;
+  font-size: 0.9rem;
+  color: #48557a;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  width: 95%;
+}
+
+.contacto__input{
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid #e6e8eb;
+  color: #26365e;
+  padding: 0 30px;
+  line-height: normal;
+  height: 60px;
+  font-size: 14px;
+  transition: all 300ms linear 0ms;
+  box-shadow: none;
+  width: 90%;
+  outline: none;
+}
+
+.contacto__input:focus{
+  border: 5px solid #cfec00;
+}
+
+.contacto__textarea{
+  margin-top: 1.5rem;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid #e6e8eb;
+  color: #26365e;
+  padding: 1.2rem 30px;
+  line-height: normal;
+  height: 7rem;
+  font-size: 14px;
+  transition: all 300ms linear 0ms;
+  box-shadow: none;
+  width: 90%;
+  outline: none;
+  overflow: auto;
+  resize: none;
+}
+
+.contacto__textarea:focus{
+  border: 5px solid #cfec00;
+}
+
+.content__button__contacto{
+  margin-top: 1rem;
+}
+
+.contacto__button{
+  background-color: #2a438f;
+  color: white;
+  font-weight: 900;
+  padding: 1rem 1rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  transition: 0.8s;
+  width: 90%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto__button__icon{
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}
+
+.contacto__button:hover{
+  color: #2a438f;
+  background-color: #cfec00;
+  border-color: #cfec00;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
 @media screen and (max-width:1380px) {
   .info__doc__texto__footer{
     padding-left: 4rem;
@@ -612,12 +721,6 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* .info__mision__card__link{
-    font-size: 0.7rem;
-  }
-  .info__mision__card__icon{
-    font-size: 1rem;
-  } */
 
   .info__doc{
     grid-template-columns: 100%;
@@ -752,6 +855,15 @@ body {
   .info__mision__card__icon{
     font-size: 1rem;
   }
+
+  .map__contacto{
+    height: 80vh;
+  }
+
+  .card__contacto{
+    margin-top: -10rem;
+    width: 70%;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -785,6 +897,28 @@ body {
   .info__doc__image__content{
     display: flex;
   }
+
+  .card__contacto{
+    margin-top: -6rem;
+    width: 80%;
+  }
+
+  .card__contacto__paragraph{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .contacto__input{
+    width: 100%;
+  }
+  .contacto__textarea{
+    width: 100%;
+    height: 11rem;
+  }
+
+  .contacto__button{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -808,5 +942,22 @@ body {
 
   .info__doc__image{
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__contacto{
+    margin-top: -6rem;
+    width: 90%;
+    margin-left: 1rem;
+  }
+
+  .card__contacto__title{
+    font-size: 0.9rem;
+  }
+
+  .card__contacto__paragraph{
+    font-size: 0.8rem;
+    text-align: left;
   }
 }
