@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer__logo">
           <div className='card__logo'>
             <div className='content__img__logo'>
-              <img src="images/logos/logo_250x172.PNG" alt="Logo de CIMO Salud" className='img__logo' />
+              <img src="images/logos/logo_250x172.png" alt="Logo de CIMO Salud" className='img__logo' />
             </div>
             <p className='logo__paragraph'>Nuestro objetivo es brindar atención de calidad de una manera cortés, respetuosa y compasiva. Esperamos que nos permita cuidarlo y nos esforzaremos, por ser la primera y mejor opción para el cuidado de la salud de su familia.</p>
             <a href="https://api.whatsapp.com/send?phone=56999609708&amp;text=Wuena CIMO SALUD !!!" target="_blank" rel="nofollow" className="logo__reserva">
