@@ -4,7 +4,7 @@ function Medicina() {
   return (
     <div className="especialidad__content">
       <div className='especialidad__image_content'>
-        <img className='especialidad__image__medica' src="/public/images/especialidades/area_medica.jpg" alt="" />
+        <img className='especialidad__image__medica' src="/images/especialidades/area_medica.jpg" alt="" />
       </div>
       <h1 className='especialidad__title'>Medicina General</h1>
       <p className='especialidad__paragraph'>El/La Medico cirujano esta capacitado para la resolucion de enfermedades de origen infecciosos, viral, de tipo agudo y cronico.</p>
