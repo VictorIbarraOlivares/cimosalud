@@ -1,14 +1,109 @@
 import { Link } from 'react-router-dom'
 import { faBookMedical, faHouseMedical, faInfoCircle, faKitMedical, faPumpMedical, faTooth, faTruckMedical, faUserDoctor } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Carousel from 'react-bootstrap/Carousel'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Inicio() {
   return (
     <div>
-      <div className='background__image'>
+      {/* <div className='background__image'>
         <h1 className="title__inicio" >Centro Integral Medico y Odontológico</h1>
+      </div> */}
+      <div className='inicio__carousel'>
+      <Carousel fade>
+        <Carousel.Item>
+          <img
+            className="test-image"
+            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className='carousel__content'>
+              <p>Medicina General</p>
+              <Link to="/nosotros" className="carousel__link" >
+                <p>Conoce más aquí ></p>
+              </Link>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="test-image"
+            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className='carousel__content'>
+              <p>Odontología</p>
+              <Link to="/nosotros" className="carousel__link" >
+                <p>Conoce más aquí ></p>
+              </Link>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="test-image"
+            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className='carousel__content'>
+              <p>Kinesiología</p>
+              <Link to="/nosotros" className="carousel__link" >
+                <p>Conoce más aquí ></p>
+              </Link>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="test-image"
+            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className='carousel__content'>
+              <p>Fonoaudiología</p>
+              <Link to="/nosotros" className="carousel__link" >
+                <p>Conoce más aquí ></p>
+              </Link>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="test-image"
+            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className='carousel__content'>
+              <p>Psicología</p>
+              <Link to="/nosotros" className="carousel__link" >
+                <p>Conoce más aquí ></p>
+              </Link>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="test-image"
+            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <div className='carousel__content'>
+              <p>Nutrición</p>
+              <Link to="/nosotros" className="carousel__link" >
+                <p>Conoce más aquí ></p>
+              </Link>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
       </div>
-
       <div className="info__principal">
         <div className="card__info">
           <div className="card__info__img">
