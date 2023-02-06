@@ -1,0 +1,48 @@
+/* Medicina General */
+.especialidad__content{
+  padding: 2rem 16rem;
+  color: var(--color-black);
+  letter-spacing: 2px;
+}
+
+.especialidad__image__medica{
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.especialidad__title{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: var(--color-principal);
+  font-weight: 700;
+}
+
+.especialidad__paragraph{
+  font-weight: 400;
+}
+
+.especialidad__title__list{
+  color: var(--color-principal);
+  font-weight: 500;
+}
+.especialidad__list{
+  list-style: none;
+}
+
+.list__style{
+  color: var(--color-principal);
+  font-weight: 900;
+  letter-spacing: -4px;
+}
+
+.especialidad__list__detail{
+  padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 426px) {
+  .especialidad__content{
+    padding: 2rem;
+  }
+}

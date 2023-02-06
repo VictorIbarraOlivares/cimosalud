@@ -9,7 +9,7 @@ function Header() {
       <nav
         className={`nav ${openHamburguer && 'open'}`}>
         <div className='brand__title'>
-          <img src="images/logos/logo_100x68.png" alt="Logo de CIMO Salud" className='brand__logo' />
+          <img src="/public/images/logos/logo_100x68.png" alt="Logo de CIMO Salud" className='brand__logo' />
         </div>
         <div
           className={`toggle-button ${openHamburguer && 'open'}`}

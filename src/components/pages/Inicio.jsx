@@ -15,13 +15,13 @@ function Inicio() {
         <Carousel.Item>
           <img
             className="test-image"
-            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            src="/public/images/especialidades/area_medica.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
               <p>Medicina General</p>
-              <Link to="/nosotros" className="carousel__link" >
+              <Link to="/especialidades/medicina-general" className="carousel__link" >
                 <p>Conoce más aquí ></p>
               </Link>
             </div>
@@ -30,7 +30,7 @@ function Inicio() {
         <Carousel.Item>
           <img
             className="test-image"
-            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            src="/public/images/especialidades/area_odontologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -45,7 +45,7 @@ function Inicio() {
         <Carousel.Item>
           <img
             className="test-image"
-            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            src="/public/images/especialidades/area_kinesiologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -60,7 +60,7 @@ function Inicio() {
         <Carousel.Item>
           <img
             className="test-image"
-            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            src="/public/images/especialidades/area_fonoaudiologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -75,7 +75,7 @@ function Inicio() {
         <Carousel.Item>
           <img
             className="test-image"
-            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            src="/public/images/especialidades/area_psicologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -90,7 +90,7 @@ function Inicio() {
         <Carousel.Item>
           <img
             className="test-image"
-            src="images/logos/logo_250x172.png?text=First slide&bg=373940"
+            src="/public/images/especialidades/area_nutricion.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
