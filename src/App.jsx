@@ -10,6 +10,7 @@ import Inicio from "./components/pages/Inicio";
 import Nosotros from "./components/pages/Nosotros";
 import Servicios from "./components/pages/Servicios";
 import Contacto from "./components/pages/Contacto";
+import Medicina from "./components/especialidades/Medicina";
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
           <Route element={<Nosotros />} path="/nosotros" />
           <Route element={<Servicios />} path="/servicios" />
           <Route element={<Contacto />} path="/contacto" />
+
+          <Route element={<Medicina />} path="/especialidades/medicina-general" />
         </Route>
       </Routes>
     </BrowserRouter>

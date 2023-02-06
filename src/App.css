@@ -7,6 +7,7 @@
   --color-secundario: #435ba1;
   --color-third: #4dffe1ef;
   --color-fourth: #2a438f;
+  --colo-black: #21272a;
 }
 
 *{
@@ -243,7 +244,7 @@ body {
 .test-image{
   height: 50vh;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
   display: block;
 }
 
