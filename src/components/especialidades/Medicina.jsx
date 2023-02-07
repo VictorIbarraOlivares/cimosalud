@@ -35,6 +35,12 @@ function Medicina() {
           <span className='especialidad__list__detail'>ELECTROCARDIOGRAMA</span>
         </li>
       </ul>
+
+      <div className='content__reserva__mobile'>
+        <a href="https://api.whatsapp.com/send?phone=56932004779&amp;text=Hola CIMO SALUD, estuve revisando la pagina, y quisiera reservar una hora" target="_blank" rel="nofollow" className="boton__reserva__mobile">
+          <span >Reservar hora médica</span>
+        </a>
+      </div>
     </div>
   )
 }
