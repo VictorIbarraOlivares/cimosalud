@@ -7,97 +7,100 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Inicio() {
   return (
     <div>
-      {/* <div className='background__image'>
-        <h1 className="title__inicio" >Centro Integral Medico y Odontológico</h1>
-      </div> */}
       <div className='inicio__carousel'>
-      <Carousel fade>
+      <Carousel fade indicators={false}>
         <Carousel.Item>
           <img
-            className="test-image"
+            className="carousel__image"
             src="/images/especialidades/area_medica.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
-              <p>Medicina General</p>
+              <p className='carousel__text'>Medicina General</p>
               <Link to="/especialidades/medicina-general" className="carousel__link" >
-                <p>Conoce más aquí ></p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
+                <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="test-image"
+            className="carousel__image"
             src="/images/especialidades/area_odontologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
-              <p>Odontología</p>
+              <p className='carousel__text'>Odontología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p>Conoce más aquí ></p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
+                <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="test-image"
+            className="carousel__image"
             src="/images/especialidades/area_kinesiologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
-              <p>Kinesiología</p>
+              <p className='carousel__text'>Kinesiología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p>Conoce más aquí ></p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
+                <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="test-image"
+            className="carousel__image"
             src="/images/especialidades/area_fonoaudiologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
-              <p>Fonoaudiología</p>
+              <p className='carousel__text'>Fonoaudiología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p>Conoce más aquí ></p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
+                <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="test-image"
+            className="carousel__image"
             src="/images/especialidades/area_psicologia.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
-              <p>Psicología</p>
+              <p className='carousel__text'>Psicología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p>Conoce más aquí ></p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
+                <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="test-image"
+            className="carousel__image"
             src="/images/especialidades/area_nutricion.jpg?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
             <div className='carousel__content'>
-              <p>Nutrición</p>
+              <p className='carousel__text'>Nutrición</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p>Conoce más aquí ></p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
+                <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
             </div>
           </Carousel.Caption>

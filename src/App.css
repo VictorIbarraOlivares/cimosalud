@@ -3,7 +3,7 @@
 :root{
   --color-principal: #00b495;
   --color-principal-transparente: #00b4967e;
-  --color-principal-transparent: #00b496d5;
+  --color-principal-transparent: #00b49696;
   --color-secundario: #435ba1;
   --color-third: #4dffe1ef;
   --color-fourth: #2a438f;
@@ -237,14 +237,19 @@ body {
 
 /* Inicio Page */
 .inicio__carousel{
-  /* padding: 1rem;
-  background-color: red; */
 }
 
-.test-image{
-  height: 50vh;
+.carousel-caption {
+  position: absolute;
+  right: 40% !important;
+  bottom: -1rem !important;
+  left: 0 !important;
+  padding-bottom: 1.3rem !important;
+}
+
+.carousel__image{
+  height: 60vh;
   width: 100%;
-  object-fit: cover;
   display: block;
 }
 
@@ -252,13 +257,23 @@ body {
   background-color: var(--color-principal-transparent);
   color: white;
   display: block;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem;
   border-radius: 0.3rem;
   font-weight: 700;
   text-align: left;
 }
 
+.carousel__text{
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  letter-spacing: 1.5px;
+}
+
 .carousel__link{
+  font-size: small;
+  font-weight: 600;
+  letter-spacing: 1px;
   background-color: var(--color-principal);
   color: white;
   text-decoration: none;
@@ -266,11 +281,18 @@ body {
   width: 70%;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 5px 3px;
   transition: all 0.4s linear 0.1s;
 }
 
-.carousel__link p {
+.carousel__link__text__desktop {
+  margin: 0;
+}
+
+.carousel__link__text__mobile{
+  display: none;
   margin: 0;
 }
 
@@ -965,10 +987,6 @@ body {
     padding-bottom: 1rem;
   }
 
-  .title__inicio{
-    font-size: 1.5rem;
-  }
-
   .footer{
     grid-template-columns: repeat(1, 100%);
     background-color: var(--color-secundario);
@@ -1078,12 +1096,6 @@ body {
   }
 }
 
-@media screen and (min-width: 800px) {
-  .title__inicio{
-    font-size: 3rem;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .page__nosotros__text{
     padding-left: 5rem;
@@ -1148,6 +1160,25 @@ body {
     grid-template-columns: repeat(1, 98%);
     padding-left: 8%;
     padding-right: 8%;
+  }
+
+  .carousel__image{
+    height: 65vh;
+    object-fit: cover;
+  }
+  .carousel__link{
+    background-color: white;
+    color: var(--color-principal);
+  }
+
+  .carousel__link__text__desktop {
+    display: none;
+  }
+  .carousel__link__text__mobile{
+    display: block;
+  }
+  .content__reserva__mobile{
+    display: flex !important;
   }
 }
 
