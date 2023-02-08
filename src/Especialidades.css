@@ -8,7 +8,7 @@
 .especialidad__image__medica{
   width: 100%;
   height: auto;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .especialidad__title{
@@ -48,6 +48,7 @@
   bottom: 0;
   z-index: 10;
   padding-top: 8px;
+  padding-bottom: 8px;
   width: 100%;
   height: 68px;
   left: 0;
@@ -61,7 +62,7 @@
   display: flex;
   text-decoration: none;
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: left;
   align-items: center;
   letter-spacing: 2px;
@@ -72,18 +73,108 @@
   border-radius: 1rem;
 }
 
+.content__reserva__desktop {
+  padding-top: 0.5rem;
+  padding-bottom: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.boton__reserva__desktop{
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: left;
+  align-items: center;
+  letter-spacing: 2px;
+  max-width: fit-content;
+  background-color: var(--color-principal);
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  border: 1px solid var(--color-principal);
+  box-shadow: 0.2rem 0.2rem 0.6rem #015c4d;
+}
+.svg__reserva__green {
+  display: none;
+}
+.svg__reserva__green {
+  display: none;
+}
+
+.boton__reserva__desktop:hover{
+  background-color: white;
+  color: var(--color-principal);
+  border: 1px solid var(--color-principal);
+}
+
+.boton__reserva__desktop:hover .svg__reserva__green{
+  display: block;
+}
+
+.boton__reserva__desktop:hover .svg__reserva__white{
+  display: none;
+}
+
+.boton__reserva__text{
+  padding-left: 10px;
+}
+
+.boton__reserva__text__mobile{
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1025px) {
+  .especialidad__content{
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .boton__reserva__desktop{
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .svg__reserva__white{
+    width: 25px;
+    height: 25px;
+  }
+
+  .svg__reserva__green {
+    width: 25px;
+    height: 25px;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .especialidad__content{
     padding: 2rem;
   }
 
   .especialidad__image__medica{
-    width: 100%;
-    height: 30vh;
+    height: 40vh;
+    object-fit: cover;
   }
 
   .especialidad__list{
     padding-left: 1rem;
+  }
+
+  .content__reserva__desktop{
+    display: none;
+  }
+
+  .content__reserva__mobile{
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .boton__reserva__mobile{
+    padding: 0.5rem 1rem;
   }
 }
 
