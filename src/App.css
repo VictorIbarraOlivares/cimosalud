@@ -1177,9 +1177,6 @@ body {
   .carousel__link__text__mobile{
     display: block;
   }
-  .content__reserva__mobile{
-    display: flex !important;
-  }
 }
 
 @media screen and (max-width: 400px) {
