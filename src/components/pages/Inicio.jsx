@@ -66,7 +66,7 @@ function Inicio() {
           <Carousel.Caption>
             <div className='carousel__content'>
               <p className='carousel__text'>Fonoaudiología</p>
-              <Link to="/nosotros" className="carousel__link" >
+              <Link to="/especialidades/fonoaudiologia" className="carousel__link" >
                 <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
                 <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>

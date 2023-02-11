@@ -13,6 +13,7 @@ import Contacto from "./components/pages/Contacto"
 import Medicina from "./components/especialidades/Medicina"
 import Odontologia from "./components/especialidades/Odontologia"
 import Kinesiologia from "./components/especialidades/Kinesiologia"
+import Fonoaudiologia from "./components/especialidades/Fonoaudiologia"
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route element={<Medicina />} path="/especialidades/medicina-general" />
           <Route element={<Odontologia />} path="/especialidades/odontologia" />
           <Route element={<Kinesiologia />} path="/especialidades/kinesiologia" />
+          <Route element={<Fonoaudiologia />} path="/especialidades/fonoaudiologia" />
         </Route>
       </Routes>
     </BrowserRouter>
