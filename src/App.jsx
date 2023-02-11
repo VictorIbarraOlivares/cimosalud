@@ -14,6 +14,7 @@ import Medicina from "./components/especialidades/Medicina"
 import Odontologia from "./components/especialidades/Odontologia"
 import Kinesiologia from "./components/especialidades/Kinesiologia"
 import Fonoaudiologia from "./components/especialidades/Fonoaudiologia"
+import Psicologia from "./components/especialidades/Psicologia"
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route element={<Odontologia />} path="/especialidades/odontologia" />
           <Route element={<Kinesiologia />} path="/especialidades/kinesiologia" />
           <Route element={<Fonoaudiologia />} path="/especialidades/fonoaudiologia" />
+          <Route element={<Psicologia />} path="/especialidades/psicologia"  />
         </Route>
       </Routes>
     </BrowserRouter>
