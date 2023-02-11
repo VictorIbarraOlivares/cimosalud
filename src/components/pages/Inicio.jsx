@@ -19,8 +19,8 @@ function Inicio() {
             <div className='carousel__content'>
               <p className='carousel__text'>Medicina General</p>
               <Link to="/especialidades/medicina-general" className="carousel__link" >
-                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
-                <p className='carousel__link__text__mobile'>Ver más > </p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>
             </div>
           </Carousel.Caption>
@@ -35,8 +35,8 @@ function Inicio() {
             <div className='carousel__content'>
               <p className='carousel__text'>Odontología</p>
               <Link to="/especialidades/odontologia" className="carousel__link" >
-                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
-                <p className='carousel__link__text__mobile'>Ver más > </p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>
             </div>
           </Carousel.Caption>
@@ -51,8 +51,8 @@ function Inicio() {
             <div className='carousel__content'>
               <p className='carousel__text'>Kinesiología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
-                <p className='carousel__link__text__mobile'>Ver más > </p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>
             </div>
           </Carousel.Caption>
@@ -67,8 +67,8 @@ function Inicio() {
             <div className='carousel__content'>
               <p className='carousel__text'>Fonoaudiología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
-                <p className='carousel__link__text__mobile'>Ver más > </p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>
             </div>
           </Carousel.Caption>
@@ -83,8 +83,8 @@ function Inicio() {
             <div className='carousel__content'>
               <p className='carousel__text'>Psicología</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
-                <p className='carousel__link__text__mobile'>Ver más > </p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>
             </div>
           </Carousel.Caption>
@@ -99,8 +99,8 @@ function Inicio() {
             <div className='carousel__content'>
               <p className='carousel__text'>Nutrición</p>
               <Link to="/nosotros" className="carousel__link" >
-                <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
-                <p className='carousel__link__text__mobile'>Ver más > </p>
+                <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                <p className='carousel__link__text__mobile'>Ver más &gt;</p>
               </Link>
             </div>
           </Carousel.Caption>
