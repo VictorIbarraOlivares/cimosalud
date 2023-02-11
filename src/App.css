@@ -513,7 +513,6 @@ body {
   background-color: var(--color-principal);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
 }
 
 .footer__text{
@@ -1016,12 +1015,6 @@ body {
   }
 
   .footer{
-    /* grid-template-columns: repeat(1, 100%);
-    background-color: var(--color-secundario);
-    grid-template-areas: 
-    "logo" 
-    "card"; */
-
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
@@ -1204,6 +1197,10 @@ body {
   }
   .carousel__link__text__mobile{
     display: block;
+  }
+
+  .footer{
+    margin-bottom: 3rem;
   }
 }
 

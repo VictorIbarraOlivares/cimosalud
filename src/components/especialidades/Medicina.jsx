@@ -22,23 +22,23 @@ function Medicina() {
 
       <ul className='especialidad__list'>
         <li>
-          <span className='list__style'>>></span>
+          <span className='list__style'>&gt;&gt;</span>
           <span className='especialidad__list__detail'>CONSULTA MEDICINA GENERAL</span>
         </li>
         <li>
-          <span className='list__style'>>></span>
+          <span className='list__style'>&gt;&gt;</span>
           <span className='especialidad__list__detail'>CONTROL INFANTIL</span>
         </li>
         <li>
-          <span className='list__style'>>></span>
+          <span className='list__style'>&gt;&gt;</span>
           <span className='especialidad__list__detail'>CONTROL CARDIOVASCULAR</span>
         </li>
         <li>
-          <span className='list__style'>>></span>
+          <span className='list__style'>&gt;&gt;</span>
           <span className='especialidad__list__detail'>CONTROL SALUD MENTAL</span>
         </li>
         <li>
-          <span className='list__style'>>></span>
+          <span className='list__style'>&gt;&gt;</span>
           <span className='especialidad__list__detail'>ELECTROCARDIOGRAMA</span>
         </li>
       </ul>
