@@ -11,6 +11,7 @@ import Nosotros from "./components/pages/Nosotros";
 import Servicios from "./components/pages/Servicios";
 import Contacto from "./components/pages/Contacto";
 import Medicina from "./components/especialidades/Medicina";
+import Odontologia from "./components/especialidades/Odontologia";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route element={<Contacto />} path="/contacto" />
 
           <Route element={<Medicina />} path="/especialidades/medicina-general" />
+          <Route element={<Odontologia />} path="/especialidades/odontologia" />
         </Route>
       </Routes>
     </BrowserRouter>

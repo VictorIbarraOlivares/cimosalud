@@ -34,7 +34,7 @@ function Inicio() {
           <Carousel.Caption>
             <div className='carousel__content'>
               <p className='carousel__text'>Odontología</p>
-              <Link to="/nosotros" className="carousel__link" >
+              <Link to="/especialidades/odontologia" className="carousel__link" >
                 <p className='carousel__link__text__desktop'>Conoce más aquí ></p>
                 <p className='carousel__link__text__mobile'>Ver más > </p>
               </Link>
