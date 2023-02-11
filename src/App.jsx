@@ -1,20 +1,18 @@
 import * as React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import './App.css'
 
 import Root from './components/web/Root'
-
-import Header from './components/web/Header'
-import reactLogo from './assets/react.svg'
-import './App.css'
 import Inicio from "./components/pages/Inicio"
 import Nosotros from "./components/pages/Nosotros"
-import Servicios from "./components/pages/Servicios"
 import Contacto from "./components/pages/Contacto"
+import Servicios from "./components/pages/Servicios"
 import Medicina from "./components/especialidades/Medicina"
+import Nutricion from "./components/especialidades/Nutricion"
+import Psicologia from "./components/especialidades/Psicologia"
 import Odontologia from "./components/especialidades/Odontologia"
 import Kinesiologia from "./components/especialidades/Kinesiologia"
 import Fonoaudiologia from "./components/especialidades/Fonoaudiologia"
-import Psicologia from "./components/especialidades/Psicologia"
 
 function App() {
 
@@ -32,6 +30,7 @@ function App() {
           <Route element={<Kinesiologia />} path="/especialidades/kinesiologia" />
           <Route element={<Fonoaudiologia />} path="/especialidades/fonoaudiologia" />
           <Route element={<Psicologia />} path="/especialidades/psicologia"  />
+          <Route element={<Nutricion />} path="/especialidades/nutricion"  />
         </Route>
       </Routes>
     </BrowserRouter>
