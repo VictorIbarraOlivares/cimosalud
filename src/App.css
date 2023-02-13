@@ -202,11 +202,8 @@ body {
 
 .nav__navigation.open{
   display: block;
-  /* transition: 2s; */
-  /* visibility: visible; */
-  /* opacity: 1; */
   animation: fade 1.2s;
-  width: 80%;
+  width: 85%;
   background: #ffffff;
   z-index: 10;
   top: 105px;
@@ -237,6 +234,7 @@ body {
 }
 
 .nav__item{
+  font-size: 1rem;
   list-style: none;
   display: flex;
 }
@@ -246,7 +244,7 @@ body {
   text-decoration: none;
   letter-spacing: 4px;
   font-weight: 700;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   line-height: 2rem;
   display: block;
   position: relative;
@@ -1389,5 +1387,13 @@ body {
   .card__contacto__paragraph{
     font-size: 0.8rem;
     text-align: left;
+  }
+
+  .nav__item{
+    font-size: 0.8rem;
+  }
+
+  .nav__link{
+    padding: 1rem 1rem;
   }
 }
