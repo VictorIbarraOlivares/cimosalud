@@ -132,6 +132,12 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .especialidad__content{
+    padding: 0rem 2rem 4rem;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .boton__reserva__desktop{
     font-size: 0.9rem;
