@@ -63,10 +63,16 @@ body {
   margin: 0 auto; */
 }
 
+.content__hamburguer{
+  display: none;
+}
+
 .toggle-button {
-  position: absolute;
-  top: 3.2rem;
-  right: 4rem;
+  /* position: absolute; */
+  /* top: 2rem; */
+  /* left: 2rem; */
+  margin-top: 2rem;
+  margin-left: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -157,26 +163,53 @@ body {
   align-items: center;
   background-color: white;
   color: var(--color-secundario);
+  position: relative;
+  /* height: 100px; */
 }
 
 .brand__title {
-  margin: 1rem 4rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand__title__link {
+  /* color: var(--color-principal); */
+  /* text-decoration: none; */
+  /* letter-spacing: 4px; */
+  /* font-weight: 700; */
+  /* padding: 1rem 2rem; */
+  /* line-height: 2rem; */
+  /* display: block; */
+  /* position: relative; */
 }
 
 .brand__logo {
   object-fit: fill;
 }
 
+.brand__icons{
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav__navigation{
   margin-right: 4rem;
+  position: absolute;
+  /* top: 0px; */
 }
 
 .nav__navigation.open{
   display: block;
-  visibility: visible;
-  opacity: 1;
-  animation: fade 2s;
+  /* transition: 2s; */
+  /* visibility: visible; */
+  /* opacity: 1; */
+  animation: fade 1.2s;
+  width: 80%;
+  background: #ffffff;
+  z-index: 10;
+  top: 105px;
 }
 
 .nav.open{
@@ -186,11 +219,13 @@ body {
 
 @keyframes fade {
   0% {
-      opacity: 0;
+    top: 75px;
+    display: none;
   }
 
   100% {
-      opacity: 1;
+    top: 105px;
+    display: block;
   }
 }
 
@@ -203,16 +238,16 @@ body {
 
 .nav__item{
   list-style: none;
-  display: block;
+  display: flex;
 }
 
 .nav__link{
-  color: var(--color-secundario);
+  color: var(--color-principal);
   text-decoration: none;
-  letter-spacing: 0.1rem;
+  letter-spacing: 4px;
   font-weight: 700;
-  padding: 1rem 1rem;
-  line-height: 2.5rem;
+  padding: 1rem 2rem;
+  line-height: 2rem;
   display: block;
   position: relative;
 }
@@ -933,7 +968,7 @@ body {
   box-shadow: 0.2rem 0.2rem 0.6rem #015c4d;
   letter-spacing: 1px;
   cursor: default;
-  height: 35rem;
+  height: 105px;
 }
 
 .nosotros__team__card:hover .image__team{
@@ -1080,16 +1115,41 @@ body {
 
   .nav__navigation {
     display: none;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity 600ms, visibility 600ms;
-    transition: opacity 600ms, visibility 600ms;
+    top: 0px;
+    -webkit-transition: top 600ms, display 600ms;
+    transition: top 600ms, display 600ms;
     width: 100%;
   }
 
   .nav {
-    flex-direction: column;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    /* flex-direction: row; */
     align-items: flex-start;
+
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-color: white;
+    color: var(--color-secundario);
+    position: relative;
+  }
+
+  .content__hamburguer{
+    display: flex;
+    padding-left: 2rem;
+    height: 100%;
+    align-items: center;
+  }
+
+  .brand__logo {
+    object-fit: fill;
+    width: 160px;
+  }
+
+  .brand__icons{
+    display: flex;
+    height: 100%;
   }
 
   .nav__list{
