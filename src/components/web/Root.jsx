@@ -5,7 +5,7 @@ import Header from "./Header"
 
 function Root() {
   return (
-    <main>
+    <main className="main">
       <header>
         <Header></Header>
       </header>

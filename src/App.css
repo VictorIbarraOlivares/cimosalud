@@ -58,6 +58,11 @@ body {
   position: absolute;
 }
 
+.main{
+  /* width: auto;
+  margin: 0 auto; */
+}
+
 .toggle-button {
   position: absolute;
   top: 3.2rem;
@@ -237,6 +242,7 @@ body {
 
 /* Inicio Page */
 .inicio__carousel{
+  width: 100vw;
 }
 
 .carousel-caption {
@@ -298,6 +304,84 @@ body {
 
 .carousel__link:hover{
   background-color: white;
+  color: var(--color-principal);
+}
+
+.content__reserva{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.info__especialidades{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.info__especialidades__paragraph{
+  color: var(--color-principal);
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  /* text-shadow: 2px 2px 1px #00000062, 3px 3px 1px #00000062; */
+}
+
+.content__especialidades {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.card__especialidades {
+  background-color: white;
+  width: 90%;
+  margin: 1rem auto;
+  box-shadow: 5px 2px 2px var(--color-principal);
+  border: 1px solid var(--color-principal);
+  border-radius: 0.5em;
+  letter-spacing: 0.1rem;
+  display: flex;
+  transition: 0.8s;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__card__especialidades{
+  color: var(--color-principal);
+  text-decoration: none;
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.info__card__especialidades__icon{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  font-size: 1.7rem;
+  /* animation: latidos 1.7s infinite; */
+	transform-origin: center;
+}
+
+.cls-1{
+  fill:none;stroke:#00b495;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;
+}
+
+.st0{fill:#00b495;}
+
+.card__especialidades:hover .info__card__especialidades{
   color: var(--color-principal);
 }
 
@@ -1199,8 +1283,11 @@ body {
     display: block;
   }
 
-  .footer{
-    margin-bottom: 3rem;
+  .content__especialidades {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
