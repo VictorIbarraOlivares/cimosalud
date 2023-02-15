@@ -162,6 +162,12 @@ function Inicio() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
       {/* <div className="info__principal">
         <div className="card__info">
           <div className="card__info__img">

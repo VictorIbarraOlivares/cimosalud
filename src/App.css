@@ -171,6 +171,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 2rem;
 }
 
 .brand__title__link {
@@ -186,6 +187,7 @@ body {
 
 .brand__logo {
   object-fit: fill;
+  width: 120px;
 }
 
 .brand__icons{
@@ -195,9 +197,7 @@ body {
 }
 
 .nav__navigation{
-  margin-right: 4rem;
-  position: absolute;
-  /* top: 0px; */
+  padding-right: 2rem;
 }
 
 .nav__navigation.open{
@@ -275,7 +275,7 @@ body {
 
 /* Inicio Page */
 .inicio__carousel{
-  width: 100vw;
+  width: 99.5vw;
 }
 
 .carousel-caption {
@@ -1104,6 +1104,10 @@ body {
     font-size: 0.7rem;
     text-align: center;
   }
+
+  .nav__navigation{
+    padding-right: 0rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -1117,6 +1121,10 @@ body {
     -webkit-transition: top 600ms, display 600ms;
     transition: top 600ms, display 600ms;
     width: 100%;
+  }
+
+  .nav__navigation.open {
+    position: absolute;
   }
 
   .nav {
@@ -1138,6 +1146,10 @@ body {
     padding-left: 2rem;
     height: 100%;
     align-items: center;
+  }
+
+  .brand__title {
+    padding: 0rem;
   }
 
   .brand__logo {
