@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 function Header() {
-  const [openHamburguer, setOpenHamburguer] = useState(true);
+  const [openHamburguer, setOpenHamburguer] = useState(false);
 
   return (
     <div>
@@ -45,7 +45,7 @@ function Header() {
               <Link to="/contacto" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Contacto</Link>
             </li>
             <li className="nav__item">
-              <Link to="/" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Nuestros Profesionales</Link>
+              <Link to="/nuestros-profesionales" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Nuestros Profesionales</Link>
             </li>
             {/* <li className="nav__item">
               <Link to="/" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Inicio</Link>

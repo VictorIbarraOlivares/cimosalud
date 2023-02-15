@@ -6,7 +6,7 @@ import Root from './components/web/Root'
 import Inicio from "./components/pages/Inicio"
 import Nosotros from "./components/pages/Nosotros"
 import Contacto from "./components/pages/Contacto"
-import Servicios from "./components/pages/Servicios"
+import NuestrosProfesionales from "./components/pages/NuestrosProfesionales"
 import Medicina from "./components/especialidades/Medicina"
 import Nutricion from "./components/especialidades/Nutricion"
 import Psicologia from "./components/especialidades/Psicologia"
@@ -22,7 +22,7 @@ function App() {
         <Route element={<Root />}>
           <Route element={<Inicio />} path="/" />
           <Route element={<Nosotros />} path="/nosotros" />
-          <Route element={<Servicios />} path="/servicios" />
+          <Route element={<NuestrosProfesionales />} path="/nuestros-profesionales" />
           <Route element={<Contacto />} path="/contacto" />
 
           <Route element={<Medicina />} path="/especialidades/medicina-general" />
