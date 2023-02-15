@@ -920,6 +920,46 @@ body {
 }
 
 /* Nosotros Page */
+
+.container__nosotros{
+  width: 99.5vw;
+}
+
+.nosotros__slide{
+  
+}
+
+.nosotros__paragraph{
+  font-weight: 400;
+  text-align: justify;
+}
+
+.content__buttons__nosotros{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.content__buttons__nostros__reserva{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__buttons__nostros__especialidades{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nosotros__image_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Antigo nosotros */
 .page__nosotros{
   height: auto;
   background-color: #e6e8eb;
@@ -1268,6 +1308,29 @@ body {
 
   .page__nosotros__team{
     grid-template-columns: repeat(2, 47%);
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .content__buttons__nosotros{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .content__buttons__nostros__reserva{
+    padding-bottom: 1rem;
+  }
+
+  .content__buttons__nostros__especialidades{
+    padding-top: 1rem;
+  }
+
+  .boton__reserva__desktop{
+    max-width: none !important;
+    width: 350px;
+    justify-content: center;
   }
 }
 
