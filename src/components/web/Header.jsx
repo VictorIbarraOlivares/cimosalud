@@ -39,13 +39,13 @@ function Header() {
           className={`nav__navigation ${openHamburguer && 'open'}`} >
           <ul className="nav__list">
             <li className="nav__item">
-              <Link to="/nosotros" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Nosotros</Link>
+              <Link to="/nosotros" className="nav__link" onClick={() => setOpenHamburguer(false)}>Nosotros</Link>
             </li>
             <li className="nav__item">
-              <Link to="/contacto" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Contacto</Link>
+              <Link to="/contacto" className="nav__link" onClick={() => setOpenHamburguer(false)}>Contacto</Link>
             </li>
             <li className="nav__item">
-              <Link to="/nuestros-profesionales" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Nuestros Profesionales</Link>
+              <Link to="/nuestros-profesionales" className="nav__link" onClick={() => setOpenHamburguer(false)}>Nuestros Profesionales</Link>
             </li>
             {/* <li className="nav__item">
               <Link to="/" className="nav__link" onClick={() => setOpenHamburguer(!openHamburguer)}>Inicio</Link>

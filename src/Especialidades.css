@@ -96,6 +96,9 @@
   border-radius: 2rem;
   border: 1px solid var(--color-principal);
   box-shadow: 0.2rem 0.2rem 0.6rem #015c4d;
+  max-width: none;
+  width: 350px;
+  justify-content: center;
 }
 .svg__reserva__green {
   display: none;
@@ -135,6 +138,14 @@
 @media screen and (max-width: 800px) {
   .especialidad__content{
     padding: 0rem 2rem 4rem;
+  }
+
+  .especialidad__content.remove__padding__top{
+    padding-top: 0rem;
+  }
+
+  .nosotros__image{
+    height: 140px;
   }
 }
 

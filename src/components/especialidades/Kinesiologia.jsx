@@ -27,19 +27,19 @@ superintendencia de salud.</p>
       <ul className='especialidad__list'>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONSULTA DE KINESIOLOGIA MUSCULO-ESQUELETICA</span>
+          <span className='especialidad__list__detail'>Consulta de kinesiologia musculo-esqueletica</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONSULTA DE KINESIOLOGIA RESPIRATORIA</span>
+          <span className='especialidad__list__detail'>Consulta de kinesiologia respiratoria</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>TERAPIA KINESIOLOGICA DE REHABILITACION</span>
+          <span className='especialidad__list__detail'>Terapia kinesiologica de rehabilitacion</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>PROCEDIMIENTO DE FLUJO RESPIRATORIO (ESPIROMETRIA)</span>
+          <span className='especialidad__list__detail'>Procedimiento de flujo respiratorio (espirometria)</span>
         </li>
       </ul>
 
