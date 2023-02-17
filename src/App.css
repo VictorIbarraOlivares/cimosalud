@@ -12,6 +12,7 @@
 
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -57,22 +58,27 @@ body {
   padding: 0;
   position: absolute;
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 #root {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .main{
-  /* width: auto;
-  margin: 0 auto; */
   min-height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
+}
+
+header{
+  height: 100px;
 }
 
 footer{
@@ -820,16 +826,34 @@ footer{
 
 /* Contacto Page */
 .page__contacto{
-  background-color: #e0e0e0;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  flex-grow: 1;
 }
+.page__contacto .especialidad__content{
+  padding-bottom: 0;
+}
+
+.page__contacto .content__buttons__nosotros{
+  padding-bottom: 2rem;
+}
+
+.boton__reserva__desktop.instagram {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
 .content__map{
-  width: 100%;
-  height: 80vh;
+  flex-grow : 1;
+  display: flex;
+  justify-content: center;
 }
 
 .map__contacto{
+  padding-left: 16rem;
+  padding-right: 16rem;
   width: 100%;
-  height: 100vh;
 }
 
 .card__contacto{
@@ -947,7 +971,11 @@ footer{
 /* Nosotros Page */
 
 .container__nosotros{
-  width: 99.5vw;
+  /* width: 99.5vw; */
+}
+
+.container__nosotros .content__buttons__nosotros {
+  padding-bottom: 2rem;
 }
 
 .nosotros__slide{
@@ -965,6 +993,8 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
 }
 
 .content__buttons__nostros__reserva{
@@ -1112,6 +1142,13 @@ footer{
   .info__doc__image__content{
     display: flex;
     align-items: center;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .map__contacto{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -1342,6 +1379,8 @@ footer{
     grid-template-columns: repeat(1, minmax(0, 1fr));
     align-items: center;
     padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .content__buttons__nostros__reserva{
