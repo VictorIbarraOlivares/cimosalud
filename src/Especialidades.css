@@ -139,6 +139,14 @@
   .especialidad__content{
     padding: 0rem 2rem 4rem;
   }
+
+  .especialidad__content.remove__padding__top{
+    padding-top: 0rem;
+  }
+
+  .nosotros__image{
+    height: 140px;
+  }
 }
 
 @media screen and (max-width: 479px) {

@@ -23,11 +23,11 @@ function Nosotros() {
         </Carousel>
       </div>
 
-      <div className='nosotros__image_content'>
+      <div className='nosotros__image__content'>
         <img className='nosotros__image' src="/images/logos/logo_250x172.png" alt="" />
       </div>
 
-      <div className='especialidad__content'>
+      <div className='especialidad__content remove__padding__top'>
         <p className='nosotros__paragraph'>
           CIMO SALUD, es un centro de profesionales del área médica enfocados en el
           tratamiento integrativo de todas sus disciplinas con el fin de recuperar el estado de

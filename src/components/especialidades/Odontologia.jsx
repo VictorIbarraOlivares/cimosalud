@@ -27,23 +27,39 @@ superintendencia de salud.</p>
       <ul className='especialidad__list'>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONSULTA DE URGENCIAS ODONTOLOGICAS</span>
+          <span className='especialidad__list__detail'>Consulta de urgencias odontologicas</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONTROL RADIOGRAFICO DIGITAL</span>
+          <span className='especialidad__list__detail'>Control radiografico digital</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>ODONTOLOGÍA GENERAL ADULTO</span>
+          <span className='especialidad__list__detail'>Odontología general adulto</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>ODONTOLOGIA GENERAL INFANTIL</span>
+          <span className='especialidad__list__detail'>Odontologia general infantil</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>ORTODONCIA, REHABILITACIÓN, CIRUGIA, ENDODONCIA, IMPLANTOLOGÍA</span>
+          <span className='especialidad__list__detail'>Ortodoncia</span>
+        </li>
+        <li>
+          <span className='list__style'>&gt;&gt;</span>
+          <span className='especialidad__list__detail'>Rehabilitación</span>
+        </li>
+        <li>
+          <span className='list__style'>&gt;&gt;</span>
+          <span className='especialidad__list__detail'>Cirugia</span>
+        </li>
+        <li>
+          <span className='list__style'>&gt;&gt;</span>
+          <span className='especialidad__list__detail'>Endodoncia</span>
+        </li>
+        <li>
+          <span className='list__style'>&gt;&gt;</span>
+          <span className='especialidad__list__detail'>Implantología</span>
         </li>
       </ul>
 

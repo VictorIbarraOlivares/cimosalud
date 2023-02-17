@@ -28,23 +28,23 @@ superintendencia de salud.</p>
       <ul className='especialidad__list'>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONSULTA FONOAUDIOLOGIA VOZ</span>
+          <span className='especialidad__list__detail'>Consulta fonoaudiologia voz</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONSULTA FONOAUDILOGIA HABLA</span>
+          <span className='especialidad__list__detail'>Consulta fonoaudilogia habla</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>CONSULTA FONOAUDIOLOGIA LENGUAJE</span>
+          <span className='especialidad__list__detail'>Consulta fonoaudiologia lenguaje</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>REHABILITACION FONOAUDIOLOGICA</span>
+          <span className='especialidad__list__detail'>Rehabilitacion fonoaudiologica</span>
         </li>
         <li>
           <span className='list__style'>&gt;&gt;</span>
-          <span className='especialidad__list__detail'>PROCEDIMIENTO DE EXTRACCION DE CERUMEN (LAVADO DE OIDOS)</span>
+          <span className='especialidad__list__detail'>Procedimiento de extraccion de cerumen (lavado de oidos)</span>
         </li>
       </ul>
 
