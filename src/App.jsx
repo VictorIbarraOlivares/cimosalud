@@ -25,8 +25,8 @@ function App() {
           <Route element={<Nosotros />} path="/nosotros" />
           <Route element={<NuestrosProfesionales />} path="/nuestros-profesionales" />
           <Route element={<Contacto />} path="/contacto" />
-
           <Route element={<Especialidades />} path="/especialidades"  />
+
           <Route element={<Medicina />} path="/especialidades/medicina-general" />
           <Route element={<Odontologia />} path="/especialidades/odontologia" />
           <Route element={<Kinesiologia />} path="/especialidades/kinesiologia" />

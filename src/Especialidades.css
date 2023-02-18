@@ -33,7 +33,7 @@
 }
 
 .list__style{
-  color: var(--color-principal);
+  color: var(--color-third);
   font-weight: 900;
   letter-spacing: -4px;
 }
@@ -43,7 +43,7 @@
 }
 
 .content__reserva__mobile {
-  background-color: var(--color-principal);
+  background-color: var(--color-third);
   position: fixed;
   bottom: 0;
   z-index: 10;
@@ -90,12 +90,12 @@
   align-items: center;
   letter-spacing: 2px;
   max-width: fit-content;
-  background-color: var(--color-principal);
+  background-color: var(--color-third);
   color: white;
   padding: 0.5rem 3rem;
   border-radius: 2rem;
-  border: 1px solid var(--color-principal);
-  box-shadow: 0.2rem 0.2rem 0.6rem #015c4d;
+  border: 1px solid var(--color-third);
+  box-shadow: 2px 2px 10px var(--color-secundario);
   max-width: none;
   width: 350px;
   justify-content: center;
@@ -127,6 +127,7 @@
 
 .boton__reserva__text__mobile{
   padding-left: 10px;
+  color: var(--color-third);
 }
 
 @media screen and (max-width: 1025px) {
