@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import InfoEspecialidades from '../partials/InfoEspecialidades'
 function Especialidades() {
     return (
         <div className='container__especialidades'>
-            <div className='info__especialidades'>
+            {/* <div className='info__especialidades'>
                 <p className='info__especialidades__paragraph'>Nuestras especialidades</p>
 
                 <div className='content__especialidades'>
@@ -48,7 +49,8 @@ function Especialidades() {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <InfoEspecialidades />
         </div>
     )
 }

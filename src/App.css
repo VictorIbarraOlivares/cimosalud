@@ -4,8 +4,8 @@
   --color-principal: #00b495;
   --color-principal-transparente: #00b4967e;
   --color-principal-transparent: #00b49696;
-  --color-secundario: #435ba1;
-  --color-third: #4dffe1ef;
+  --color-secundario: #203D4F;
+  --color-third: #0AB7CC;
   --color-fourth: #2a438f;
   --colo-black: #21272a;
 }
@@ -90,9 +90,6 @@ footer{
 }
 
 .toggle-button {
-  /* position: absolute; */
-  /* top: 2rem; */
-  /* left: 2rem; */
   margin-top: 2rem;
   margin-left: 2rem;
   display: none;
@@ -116,7 +113,7 @@ footer{
   display: block;
   height: 0.24rem;
   width: 100%;
-  background-color: var(--color-principal);
+  background-color: var(--color-third);
   border-radius: 0.7rem;
   opacity: 1;
   left: 0;
@@ -128,6 +125,10 @@ footer{
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
+}
+
+.toggle-button .bar2{
+  width: 80%;
 }
 
 .toggle-button span:nth-child(1) {
@@ -186,6 +187,7 @@ footer{
   background-color: white;
   color: var(--color-secundario);
   position: relative;
+  border-bottom: 3px solid var(--color-principal);
   /* height: 100px; */
 }
 
@@ -285,17 +287,20 @@ footer{
   height: 0.3rem;
   right: 0;
   position: absolute;
-  background: var(--color-principal);
+  background: var(--color-third);
   transition: width 1s ease 0.1s, right 0.5s ease 0s;
   width: 0;
 }
 
 .nav__link:hover{
-  color: var(--color-principal);
+  color: var(--color-third);
   transition: color 0.3s ease-in-out;
 }
 
 /* Inicio Page */
+.inicio__page{
+  background-color: whitesmoke;
+}
 .inicio__carousel{
   width: 99.5vw;
 }
@@ -377,19 +382,19 @@ footer{
 }
 
 .info__especialidades__paragraph{
-  color: var(--color-principal);
+  color: var(--color-secundario);
   font-size: 2rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   text-align: center;
-  letter-spacing: 0.2rem;
-  font-weight: 700;
+  letter-spacing: 2px;
+  font-weight: 500;
   /* text-shadow: 2px 2px 1px #00000062, 3px 3px 1px #00000062; */
 }
 
 .content__especialidades {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding-top: 0.5rem;
   padding-bottom: 1.5rem;
 }
 
@@ -397,10 +402,10 @@ footer{
   background-color: white;
   width: 90%;
   margin: 1rem auto;
-  box-shadow: 5px 2px 2px var(--color-principal);
-  border: 1px solid var(--color-principal);
+  box-shadow: 2px 2px 5px var(--color-secundario);
+  border: 2px solid var(--color-principal);
   border-radius: 0.5em;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1px;
   display: flex;
   transition: 0.8s;
   text-decoration: none;
@@ -413,7 +418,7 @@ footer{
   text-decoration: none;
   padding: 0.2rem;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -826,6 +831,7 @@ footer{
 
 /* Contacto Page */
 .page__contacto{
+  background-color: whitesmoke;
   display: flex;
   flex-flow: column;
   height: 100%;
@@ -848,6 +854,7 @@ footer{
   flex-grow : 1;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .map__contacto{
@@ -961,17 +968,12 @@ footer{
 
 /* Especialidades Page */
 .container__especialidades{
-  width: 99.5vw;
-  /* height: 74.6vh; */
-  background-image: url('/images/logos/logo_250x172.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-color: whitesmoke;
 }
 /* Nosotros Page */
 
 .container__nosotros{
-  /* width: 99.5vw; */
+  /* background-color: whitesmoke; */
 }
 
 .container__nosotros .content__buttons__nosotros {
@@ -1014,10 +1016,24 @@ footer{
   align-items: center;
   justify-content: center;
 }
-/* Antigo nosotros */
+/* Antiguo nosotros */
 .page__nosotros{
-  height: auto;
-  background-color: #e6e8eb;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  flex-grow: 1;
+  background-color: whitesmoke;
+}
+
+.nosotros__title{
+  color: var(--color-secundario);
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+  /* text-shadow: 2px 2px 1px #00000062, 3px 3px 1px #00000062; */
 }
 
 .page__nosotros__text{
@@ -1046,33 +1062,36 @@ footer{
 
 .page__nosotros__team{
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  padding-left: 5%;
-  padding-right: 5%;
-  column-gap: 5%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-left: 2%;
+  padding-right: 2%;
+  column-gap: 6%;
   row-gap: 2.5rem;
-  padding-bottom: 3rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .nosotros__team__card{
   background-color: white;
   position: relative;
   border-radius: 0.5em;
-  box-shadow: 0.2rem 0.2rem 0.6rem #015c4d;
-  letter-spacing: 1px;
+  box-shadow: 2px 2px 10px var(--color-secundario);
+  letter-spacing: 1.5px;
   cursor: default;
-  height: 105px;
 }
 
 .nosotros__team__card:hover .image__team{
-  transform: scale(0.9);
+  transform: scale(0.92);
   border-radius: 0.5em 0.5em 0.5em 0.5em;
+  z-index: 1;
+  position: relative;
 }
 
 .nosotros__team__card:hover .team__card__text{
-  margin-top: -4rem;
+  margin-top: -2rem;
   background-color: white;
-  position: absolute;
+  z-index: 20;
+  position: relative;
 }
 
 .nosotros__team__card:hover .team__card__profesion{
@@ -1095,21 +1114,24 @@ footer{
   color: var(--color-principal);
   font-weight: 900;
   font-size: 1.3rem;
+  margin-bottom: 0;
+  padding-bottom: 2%;
 }
 
 .team__card__profesion{
-  color: var(--color-secundario);
+  color: var(--color-third);
   font-weight: 600;
   font-size: 0.9rem;
   transition: 0.5s;
+  margin-bottom: 0;
+  padding-bottom: 2%;
 }
 
 .team__card__description{
   padding-top: 1rem;
-  color: var(--color-secundario);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.9rem;
-  text-align: center;
+  text-align: left;
 }
 
 @media screen and (max-width:1310px) {

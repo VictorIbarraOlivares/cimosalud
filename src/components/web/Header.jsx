@@ -13,7 +13,7 @@ function Header() {
               className={`toggle-button ${openHamburguer && 'open'}`}
               onClick={() => setOpenHamburguer(!openHamburguer)}>
               <span className='bar'></span>
-              <span className='bar'></span>
+              <span className='bar bar2'></span>
               <span className='bar'></span>
             </div>
           </div>
@@ -43,6 +43,9 @@ function Header() {
             </li>
             <li className="nav__item">
               <Link to="/contacto" className="nav__link" onClick={() => setOpenHamburguer(false)}>Contacto</Link>
+            </li>
+            <li className="nav__item">
+              <Link to="/especialidades" className="nav__link" onClick={() => setOpenHamburguer(false)}>Especialidades</Link>
             </li>
             <li className="nav__item">
               <Link to="/nuestros-profesionales" className="nav__link" onClick={() => setOpenHamburguer(false)}>Nuestros Profesionales</Link>
