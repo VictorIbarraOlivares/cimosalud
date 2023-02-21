@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root{
   --color-principal: #00b495;
@@ -52,7 +53,8 @@
 }
 
 body {
-  font-family: 'El Messiri', sans-serif;
+  /* font-family: 'El Messiri', sans-serif; */
+  font-family: 'Quicksand', sans-serif !important;
   background-color: var(--color-principal);
   margin: 0;
   padding: 0;
@@ -440,6 +442,7 @@ footer{
 }
 
 .st0{fill:#00b495;}
+.st01{fill:#fff;} 
 
 .card__especialidades:hover .info__card__especialidades{
   color: var(--color-principal);
@@ -650,8 +653,9 @@ footer{
   background-color: var(--color-secundario);
 } */
 .footer{
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-left: 3rem;
   padding-right: 3rem;
   background-color: var(--color-principal);
@@ -665,12 +669,45 @@ footer{
   letter-spacing: 1px;
   font-weight: 500;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer__info__desktop{
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.footer__info__mobile{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3.5rem;
+  padding-right: 3rem;
+  background-color: var(--color-principal);
+  color: white;
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .footer__icons{
   /* align-items: right; */
   text-align: right;
   padding-right: 1rem;
+  color: white;
+  display: flex;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .link__icons{
@@ -986,7 +1023,7 @@ footer{
 
 .nosotros__paragraph{
   font-weight: 400;
-  text-align: justify;
+  text-align: center;
 }
 
 .content__buttons__nosotros{
@@ -1172,6 +1209,17 @@ footer{
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .footer{
+    padding-bottom: 0.2rem;
+  }
+  .footer__info__desktop {
+    display: none;
+  }
+
+  .footer__info__mobile{
+    display: flex;
+  }
 }
 
 @media screen and (max-width:1060px) {
@@ -1297,6 +1345,11 @@ footer{
     padding-right: 0.5rem;
   }
 
+  .footer__info__mobile{
+    padding-left: 1.1rem;
+    padding-right: 0.5rem;
+  }
+
   .card{
     width: 90%;
     margin: 2rem auto;
@@ -1418,6 +1471,10 @@ footer{
     width: 350px;
     justify-content: center;
   }
+
+  .footer__info__mobile{
+    display: block;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1507,6 +1564,10 @@ footer{
     grid-template-columns: repeat(1, minmax(0, 1fr));
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .footer__info__mobile{
+    padding-bottom: 4.5rem;
   }
 }
 
