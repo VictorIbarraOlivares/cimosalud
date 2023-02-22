@@ -302,9 +302,7 @@ footer{
 /* Inicio Page */
 .inicio__page{
   background-color: whitesmoke;
-}
-.inicio__carousel{
-  width: 99.5vw;
+  padding: 1rem 16rem;
 }
 
 .carousel-caption {
@@ -1202,6 +1200,11 @@ footer{
     display: flex;
     align-items: center;
   }
+
+  .inicio__page{
+    background-color: whitesmoke;
+    padding: 1rem 4rem;
+  }
 }
 
 @media screen and (max-width:1025px) {
@@ -1282,7 +1285,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1017px) {
   .toggle-button {
     display: flex;
   }
@@ -1338,6 +1341,13 @@ footer{
     width: 100%;
     flex-direction: column;
     padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .inicio__page{
+    padding: 0rem;
   }
 
   .footer{
@@ -1445,6 +1455,16 @@ footer{
 
   .page__nosotros__team{
     grid-template-columns: repeat(2, 47%);
+  }
+
+}
+
+@media screen and (max-width: 673px) {
+  .content__especialidades {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -1569,6 +1589,7 @@ footer{
   .footer__info__mobile{
     padding-bottom: 4.5rem;
   }
+
 }
 
 @media screen and (max-width: 410px) {
