@@ -1035,6 +1035,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
+  row-gap: 1.5rem;
 }
 
 .content__buttons__nostros__reserva{
