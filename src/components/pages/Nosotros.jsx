@@ -60,22 +60,23 @@ function Nosotros() {
       <div className='especialidad__text__content'>
         <div className='remove__padding__top'>
           <p className='nosotros__paragraph'>
-            CIMO SALUD, es un centro de profesionales del área médica enfocados en el
-            tratamiento integrativo de todas sus disciplinas con el fin de recuperar el estado de
-            salud cuando se ha visto alterado por una o más condiciones y enfermedades.
+            CIMO SALUD, es un centro de profesionales del área médica
+            enfocados en el tratamiento integrativo de todas sus disciplinas con el
+            fin de recuperar el estado de salud cuando se ha visto alterado por
+            una o más condiciones y enfermedades.
           </p>
 
           <p className='nosotros__paragraph'>
-            Tiene como objetivo resolver el motivo de consulta de los pacientes atendidos en
-            nuestra sede, entregando un tratamiento asertivo con equipos de
-            última tecnología que garanticen la satisfacción en el tratamiento de las
-            enfermedades que lo llevaron a consultar.
+            Tiene como objetivo resolver el motivo de consulta de los pacientes
+            atendidos en nuestra sede, entregando un tratamiento asertivo con
+            equipos de última tecnología que garanticen la satisfacción en el
+            tratamiento de las enfermedades que lo llevaron a consultar.
           </p>
 
           <p className='nosotros__paragraph'>
-            CIMO SALUD cuenta con un equipo multidisciplinario conformado por Medico
-            cirujano, Odontologos Especialistas, Fonoaudiologia, Kinesiologia, Psicologia y
-            Nutricion.
+            CIMO SALUD cuenta con un equipo multidisciplinario conformado
+            por Médico cirujano, Odontólogos Especialistas, Fonoaudiología,
+            Kinesiología, Psicología y Nutrición.
           </p>
         </div>
 

@@ -6,21 +6,8 @@ function Contacto() {
       <div className='especialidad__text__content'>
         <p className='info__especialidades__paragraph'>Contacto</p>
         <p className='nosotros__paragraph'>
-          Puedes contactarte con el Centro integral CIMO SALUD mediante los
-          diferentes canales digitales (Facebook, Instragram, TikTok, WhatsApp)
-          También puedes reservar horas directas con el equipo administrativo del
-          Centro via telefónica.
-        </p>
-
-        <p className='nosotros__paragraph'>
-          Puedes visitarnos en CIMO SALUD ubicado en Padre Mariano 10, Oficina
-          701, providencia, esto es a pasos del Metro Pedro de Valdivia (salida norte)
-        </p>
-
-        <p className='nosotros__paragraph'>
-          CIMO SALUD cuenta con un equipo multidisciplinario conformado por Medico
-          cirujano, Odontologos Especialistas, Fonoaudiologia, Kinesiologia, Psicologia y
-          Nutricion.
+          ¡Visítanos! Estamos ubicados en Padre Mariano 10, Providencia.
+          Estamos a pasos del Metro Pedro de Valdivia (salida norte)
         </p>
 
         <div className='content__buttons__nosotros'>
@@ -42,6 +29,13 @@ function Contacto() {
             </a>
           </div>
         </div>
+
+        <p className='nosotros__paragraph'>
+          ¡Recuerda! CIMO SALUD cuenta con un equipo multidisciplinario
+          conformado por Médicos, Odontólogos Especialistas, Fonoaudiología,
+
+          Kinesiología, Psicología y Nutrición
+        </p>
       </div>
       <div className="content__map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.8815685661307!2d-70.6185380243818!3d-33.426331873399086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6386fe6833%3A0x78c5a643711f0375!2sPadre%20Mariano%2010%2C%20Edificio%20PadreMariano%2C%207500026%20Santiago%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1672104456664!5m2!1ses!2scl" className="map__contacto" ></iframe>

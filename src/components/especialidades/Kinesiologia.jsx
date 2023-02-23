@@ -10,33 +10,38 @@ function Odontologia() {
         <img className='especialidad__image__medica' src="/images/especialidades/area_kinesiologia.jpg" alt="" />
       </div>
       <div className='especialidad__text__content'>
-        <h1 className='especialidad__title'>Kinesiologia</h1>
+        <h1 className='especialidad__title'>Kinesiología</h1>
         <ReservaDesktop />
-        <p className='especialidad__paragraph'>El/La Kinesiologa esta capacitado para resolver afecciones del territorio
-          musculoesqueletico y respiratorio, a demas del tratamiento rehabilitador de
-          secuelas de enfermedades de tipo neurologicas y/o cardiovasculares</p>
-
-        <p className='especialidad__paragraph'>Todos nuestros profesionales kinesiologos se encuentran con registro en la
-          superintendencia de salud.</p>
+        <p className='especialidad__paragraph'>
+          El profesional Kinesiólogo de CIMO SALUD te proporcionará una
+          atención integral para la prevención, conservación, evaluación y
+          tratamiento ante afecciones musculoesquelética, respiratorias y de
+          neurorrehabilitación. Las que se pueden complementar con sesiones
+          de masoterapia y auriculoterapia.
+        </p>
 
         <p className='especialidad__title__list'>Las áreas que puedes consultar son:</p>
 
         <ul className='especialidad__list'>
           <li>
             <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>Consulta de kinesiologia musculo-esqueletica</span>
+            <span className='especialidad__list__detail'>Consulta de kinesiología musculo-esquelética</span>
           </li>
           <li>
             <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>Consulta de kinesiologia respiratoria</span>
+            <span className='especialidad__list__detail'>Consulta de kinesiología respiratoria</span>
           </li>
           <li>
             <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>Terapia kinesiologica de rehabilitacion</span>
+            <span className='especialidad__list__detail'>Masoterapia</span>
           </li>
           <li>
             <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>Procedimiento de flujo respiratorio (espirometria)</span>
+            <span className='especialidad__list__detail'>Auriculoterapia</span>
+          </li>
+          <li>
+            <span className='list__style'>&gt;&gt;</span>
+            <span className='especialidad__list__detail'>Espirometría</span>
           </li>
         </ul>
 
