@@ -58,8 +58,6 @@ function Nosotros() {
       </div>
 
       <div className='especialidad__text__content'>
-
-
         <div className='remove__padding__top'>
           <p className='nosotros__paragraph'>
             CIMO SALUD, es un centro de profesionales del área médica enfocados en el

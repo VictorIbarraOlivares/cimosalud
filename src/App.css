@@ -299,7 +299,7 @@ footer{
 
 /* Inicio Page */
 .inicio__page{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   padding: 1rem 16rem;
 }
 
@@ -864,12 +864,14 @@ footer{
 
 /* Contacto Page */
 .page__contacto{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   display: flex;
   flex-flow: column;
   height: 100%;
   flex-grow: 1;
+  padding: 1rem 16rem;
 }
+
 .page__contacto .especialidad__content{
   padding-bottom: 0;
 }
@@ -891,9 +893,8 @@ footer{
 }
 
 .map__contacto{
-  padding-left: 16rem;
-  padding-right: 16rem;
   width: 100%;
+  height: 50vh;
 }
 
 .card__contacto{
@@ -1001,7 +1002,7 @@ footer{
 
 /* Especialidades Page */
 .container__especialidades{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 /* Nosotros Page */
 
@@ -1059,7 +1060,7 @@ footer{
   flex-flow: column;
   height: 100%;
   flex-grow: 1;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 
 .nosotros__title{
@@ -1204,20 +1205,20 @@ footer{
   }
 
   .inicio__page{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     padding: 1rem 4rem;
   }
 
   .container__nosotros{
     padding: 1rem 4rem;
   }
+
+  .page__contacto{
+    padding: 1rem 4rem;
+  }
 }
 
 @media screen and (max-width:1025px) {
-  .map__contacto{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 
   .footer{
     padding-bottom: 0.2rem;
@@ -1360,6 +1361,10 @@ footer{
     padding: 0rem;
   }
 
+  .page__contacto{
+    padding: 0rem;
+  }
+
   .footer{
     padding-left: 0rem;
     padding-right: 0rem;
@@ -1448,7 +1453,7 @@ footer{
   }
 
   .map__contacto{
-    height: 80vh;
+    height: 60vh;
   }
 
   .card__contacto{
