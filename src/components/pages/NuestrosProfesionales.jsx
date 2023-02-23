@@ -3,7 +3,7 @@ function NuestrosProfesionales() {
   return (
     <div className="page__nosotros">
 
-      <div className='especialidad__content'>
+      <div className='especialidad__text__content'>
 
         <h2 className='nosotros__title'>Nuestros profesionales</h2>
 

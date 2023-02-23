@@ -1060,6 +1060,7 @@ footer{
   flex-flow: column;
   height: 100%;
   flex-grow: 1;
+  padding: 1rem 16rem;
   /* background-color: whitesmoke; */
 }
 
@@ -1216,6 +1217,10 @@ footer{
   .page__contacto{
     padding: 1rem 4rem;
   }
+
+  .page__nosotros{
+    padding: 1rem 4rem;
+  }
 }
 
 @media screen and (max-width:1025px) {
@@ -1362,6 +1367,10 @@ footer{
   }
 
   .page__contacto{
+    padding: 0rem;
+  }
+
+  .page__nosotros{
     padding: 0rem;
   }
 
