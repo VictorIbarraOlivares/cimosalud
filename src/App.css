@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root{
   --color-principal: #00b495;
@@ -53,8 +52,7 @@
 }
 
 body {
-  /* font-family: 'El Messiri', sans-serif; */
-  font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   background-color: var(--color-principal);
   margin: 0;
   padding: 0;
@@ -197,7 +195,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }
 
 .brand__title__link {
@@ -301,10 +299,8 @@ footer{
 
 /* Inicio Page */
 .inicio__page{
-  background-color: whitesmoke;
-}
-.inicio__carousel{
-  width: 99.5vw;
+  /* background-color: whitesmoke; */
+  padding: 1rem 16rem;
 }
 
 .carousel-caption {
@@ -868,12 +864,14 @@ footer{
 
 /* Contacto Page */
 .page__contacto{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   display: flex;
   flex-flow: column;
   height: 100%;
   flex-grow: 1;
+  padding: 1rem 16rem;
 }
+
 .page__contacto .especialidad__content{
   padding-bottom: 0;
 }
@@ -895,9 +893,8 @@ footer{
 }
 
 .map__contacto{
-  padding-left: 16rem;
-  padding-right: 16rem;
   width: 100%;
+  height: 50vh;
 }
 
 .card__contacto{
@@ -1005,12 +1002,12 @@ footer{
 
 /* Especialidades Page */
 .container__especialidades{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 /* Nosotros Page */
 
 .container__nosotros{
-  /* background-color: whitesmoke; */
+  padding: 1rem 16rem;
 }
 
 .container__nosotros .content__buttons__nosotros {
@@ -1019,6 +1016,12 @@ footer{
 
 .nosotros__slide{
   
+}
+
+.carousel__image__nosotros{
+  height: 60vh;
+  width: 100%;
+  display: block;
 }
 
 .nosotros__paragraph{
@@ -1032,8 +1035,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
-  padding-left: 16rem;
-  padding-right: 16rem;
+  row-gap: 1.5rem;
 }
 
 .content__buttons__nostros__reserva{
@@ -1059,7 +1061,8 @@ footer{
   flex-flow: column;
   height: 100%;
   flex-grow: 1;
-  background-color: whitesmoke;
+  padding: 1rem 16rem;
+  /* background-color: whitesmoke; */
 }
 
 .nosotros__title{
@@ -1202,13 +1205,26 @@ footer{
     display: flex;
     align-items: center;
   }
+
+  .inicio__page{
+    /* background-color: whitesmoke; */
+    padding: 1rem 4rem;
+  }
+
+  .container__nosotros{
+    padding: 1rem 4rem;
+  }
+
+  .page__contacto{
+    padding: 1rem 4rem;
+  }
+
+  .page__nosotros{
+    padding: 1rem 4rem;
+  }
 }
 
 @media screen and (max-width:1025px) {
-  .map__contacto{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 
   .footer{
     padding-bottom: 0.2rem;
@@ -1282,7 +1298,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1017px) {
   .toggle-button {
     display: flex;
   }
@@ -1339,15 +1355,34 @@ footer{
     flex-direction: column;
     padding-bottom: 1rem;
   }
+}
+
+@media screen and (max-width: 800px) {
+
+  .inicio__page{
+    padding: 0rem;
+  }
+
+  .container__nosotros{
+    padding: 0rem;
+  }
+
+  .page__contacto{
+    padding: 0rem;
+  }
+
+  .page__nosotros{
+    padding: 0rem;
+  }
 
   .footer{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .footer__info__mobile{
-    padding-left: 1.1rem;
-    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
   }
 
   .card{
@@ -1428,7 +1463,7 @@ footer{
   }
 
   .map__contacto{
-    height: 80vh;
+    height: 60vh;
   }
 
   .card__contacto{
@@ -1445,6 +1480,16 @@ footer{
 
   .page__nosotros__team{
     grid-template-columns: repeat(2, 47%);
+  }
+
+}
+
+@media screen and (max-width: 673px) {
+  .content__especialidades {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -1559,6 +1604,11 @@ footer{
     display: block;
   }
 
+  .carousel__image__nosotros{
+    height: 65vh;
+    object-fit: fill;
+  }
+
   .content__especialidades {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1568,6 +1618,13 @@ footer{
 
   .footer__info__mobile{
     padding-bottom: 4.5rem;
+  }
+
+}
+
+@media screen and (max-width: 410px) {
+  .footer__info__mobile__direccion{
+    font-size: 0.9rem;
   }
 }
 
@@ -1592,6 +1649,10 @@ footer{
 
   .info__doc__image{
     width: 95%;
+  }
+
+  .footer__info__mobile{
+    padding-right: 0;
   }
 }
 
