@@ -11,6 +11,13 @@ function Nosotros() {
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
+              src="/images/nosotros/image_test.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
               src="/images/nosotros/image_1.png?text=First slide&bg=373940"
               alt="First slide"
             />
