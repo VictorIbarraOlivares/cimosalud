@@ -1,34 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import * as React from "react"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './App.css'
 
+import Root from './components/web/Root'
+import Inicio from "./components/pages/Inicio"
+import Nosotros from "./components/pages/Nosotros"
+import Contacto from "./components/pages/Contacto"
+import NuestrosProfesionales from "./components/pages/NuestrosProfesionales"
+import Medicina from "./components/especialidades/Medicina"
+import Nutricion from "./components/especialidades/Nutricion"
+import Psicologia from "./components/especialidades/Psicologia"
+import Odontologia from "./components/especialidades/Odontologia"
+import Kinesiologia from "./components/especialidades/Kinesiologia"
+import Fonoaudiologia from "./components/especialidades/Fonoaudiologia"
+import Especialidades from "./components/especialidades/Especialidades"
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <h2>Inicio proyecto WEB CIMOSALUD !</h2>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Root />}>
+          <Route element={<Inicio />} path="/" />
+          <Route element={<Nosotros />} path="/nosotros" />
+          <Route element={<NuestrosProfesionales />} path="/nuestros-profesionales" />
+          <Route element={<Contacto />} path="/contacto" />
+          <Route element={<Especialidades />} path="/especialidades"  />
+
+          <Route element={<Medicina />} path="/especialidades/medicina-general" />
+          <Route element={<Odontologia />} path="/especialidades/odontologia" />
+          <Route element={<Kinesiologia />} path="/especialidades/kinesiologia" />
+          <Route element={<Fonoaudiologia />} path="/especialidades/fonoaudiologia" />
+          <Route element={<Psicologia />} path="/especialidades/psicologia"  />
+          <Route element={<Nutricion />} path="/especialidades/nutricion"  />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

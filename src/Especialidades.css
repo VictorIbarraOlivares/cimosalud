@@ -1,0 +1,217 @@
+/* Medicina General */
+.especialidad__content{
+  padding: 1rem 16rem;
+  color: var(--color-black);
+  letter-spacing: 2px;
+}
+
+.especialidad__image__medica{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.especialidad__title{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: var(--color-principal);
+  font-weight: 700;
+}
+
+.especialidad__paragraph{
+  font-weight: 400;
+}
+
+.especialidad__title__list{
+  color: var(--color-principal);
+  font-weight: 500;
+}
+
+.especialidad__list{
+  list-style: none;
+}
+
+.list__style{
+  color: var(--color-third);
+  font-weight: 900;
+  letter-spacing: -4px;
+}
+
+.especialidad__list__detail{
+  padding-left: 0.5rem;
+}
+
+.content__reserva__mobile {
+  background-color: var(--color-third);
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  height: 68px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.boton__reserva__mobile{
+  display: flex;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  text-align: left;
+  align-items: center;
+  letter-spacing: 2px;
+  max-width: fit-content;
+  background-color: white;
+  color: var(--color-principal);
+  padding: 0.5rem 3rem;
+  border-radius: 1rem;
+}
+
+.content__reserva__desktop {
+  padding-top: 0.5rem;
+  padding-bottom: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.boton__reserva__desktop{
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: left;
+  align-items: center;
+  letter-spacing: 2px;
+  max-width: fit-content;
+  background-color: var(--color-third);
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  border: 1px solid var(--color-third);
+  box-shadow: 2px 2px 10px var(--color-secundario);
+  max-width: none;
+  width: 350px;
+  justify-content: center;
+}
+.svg__reserva__green {
+  display: none;
+}
+.svg__reserva__green {
+  display: none;
+}
+
+.boton__reserva__desktop:hover{
+  background-color: white;
+  color: var(--color-principal);
+  border: 1px solid var(--color-principal);
+}
+
+.boton__reserva__desktop:hover .svg__reserva__green{
+  display: block;
+}
+
+.boton__reserva__desktop:hover .svg__reserva__white{
+  display: none;
+}
+
+.boton__reserva__text{
+  padding-left: 10px;
+}
+
+.boton__reserva__text__mobile{
+  padding-left: 10px;
+  color: var(--color-third);
+}
+
+@media screen and (max-width: 1380px) {
+  .especialidad__content{
+    padding: 1rem 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .especialidad__content{
+    padding: 0rem;
+  }
+
+  .especialidad__text__content{
+    padding: 0rem 2rem;
+  }
+
+  .especialidad__content.remove__padding__top{
+    padding-top: 0rem;
+  }
+
+  .nosotros__image{
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .boton__reserva__desktop{
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .svg__reserva__white{
+    width: 25px;
+    height: 25px;
+  }
+
+  .svg__reserva__green {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .especialidad__text__content{
+    padding: 1rem 2rem;
+  }
+
+  .especialidad__image__medica{
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  .especialidad__list{
+    padding-left: 1rem;
+  }
+
+  .content__reserva__desktop{
+    display: none;
+  }
+
+  .content__reserva__mobile{
+    display: flex !important;
+  }
+
+  .footer{
+    /* margin-bottom: 3rem; */
+    /* padding-bottom: 4rem; */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .boton__reserva__mobile{
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .especialidad__text__content{
+    padding: 1rem;
+  }
+
+  .especialidad__title{
+    font-size: 1.5rem;
+  }
+}
+
