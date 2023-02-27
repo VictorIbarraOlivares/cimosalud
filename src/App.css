@@ -1021,7 +1021,7 @@ footer{
 .carousel__image__nosotros{
   height: 60vh;
   width: 100%;
-  /* object-fit: fill; */
+  /* display: block; */
 }
 
 .nosotros__paragraph{
@@ -1606,7 +1606,7 @@ footer{
 
   .carousel__image__nosotros{
     height: 65vh;
-    /* object-fit: fill; */
+    object-fit: fill;
   }
 
   .content__especialidades {
