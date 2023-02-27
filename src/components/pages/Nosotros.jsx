@@ -11,7 +11,7 @@ function Nosotros() {
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_3.jpeg?text=First slide&bg=373940"
+              src="/images/nosotros/image_1.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -24,7 +24,7 @@ function Nosotros() {
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_3_cel.jpeg?text=First slide&bg=373940"
+              src="/images/nosotros/image_1_cel.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -32,6 +32,48 @@ function Nosotros() {
                 <p className='carousel__text'>cel</p>
               </div>
             </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
+              src="/images/nosotros/image_2.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
+              src="/images/nosotros/image_3.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
+              src="/images/nosotros/image_4.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
+              src="/images/nosotros/image_5.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
+              src="/images/nosotros/image_6.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="carousel__image__nosotros"
+              src="/images/nosotros/image_7.jpeg?text=First slide&bg=373940"
+              alt="First slide"
+            />
           </Carousel.Item>
         </Carousel>
       </div>
