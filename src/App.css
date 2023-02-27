@@ -1021,7 +1021,7 @@ footer{
 .carousel__image__nosotros{
   height: 60vh;
   width: 100%;
-  object-fit: fill;
+  /* object-fit: fill; */
 }
 
 .nosotros__paragraph{

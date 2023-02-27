@@ -18,28 +18,28 @@ function Nosotros() {
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_1.png?text=First slide&bg=373940"
+              src="/images/nosotros/image_1.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_2.png?text=First slide&bg=373940"
+              src="/images/nosotros/image_2.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_3.png?text=First slide&bg=373940"
+              src="/images/nosotros/image_3.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_4.png?text=First slide&bg=373940"
+              src="/images/nosotros/image_4.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
           </Carousel.Item>
