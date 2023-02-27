@@ -8,13 +8,13 @@ function Nosotros() {
 
       <div className="nosotros__slide">
         <Carousel fade indicators={false}>
-          <Carousel.Item>
+          {/* <Carousel.Item>
             <img
               className="carousel__image__nosotros"
               src="/images/nosotros/image_test.jpeg?text=First slide&bg=373940"
               alt="First slide"
             />
-          </Carousel.Item>
+          </Carousel.Item> */}
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
@@ -50,13 +50,13 @@ function Nosotros() {
               alt="First slide"
             />
           </Carousel.Item> */}
-          <Carousel.Item>
+          {/* <Carousel.Item>
             <img
               className="carousel__image__nosotros"
               src="/images/nosotros/image_6.png?text=First slide&bg=373940"
               alt="First slide"
             />
-          </Carousel.Item>
+          </Carousel.Item> */}
         </Carousel>
       </div>
 
