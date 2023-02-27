@@ -8,55 +8,13 @@ function Nosotros() {
 
       <div className="nosotros__slide">
         <Carousel fade indicators={false}>
-          {/* <Carousel.Item>
-            <img
-              className="carousel__image__nosotros"
-              src="/images/nosotros/image_test.jpeg?text=First slide&bg=373940"
-              alt="First slide"
-            />
-          </Carousel.Item> */}
           <Carousel.Item>
             <img
               className="carousel__image__nosotros"
-              src="/images/nosotros/image_1.jpeg?text=First slide&bg=373940"
+              src="/images/nosotros/image_1.png?text=First slide&bg=373940"
               alt="First slide"
             />
           </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="carousel__image__nosotros"
-              src="/images/nosotros/image_2.jpeg?text=First slide&bg=373940"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="carousel__image__nosotros"
-              src="/images/nosotros/image_3.jpeg?text=First slide&bg=373940"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="carousel__image__nosotros"
-              src="/images/nosotros/image_4.jpeg?text=First slide&bg=373940"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          {/* <Carousel.Item>
-            <img
-              className="carousel__image__nosotros"
-              src="/images/nosotros/image_5.png?text=First slide&bg=373940"
-              alt="First slide"
-            />
-          </Carousel.Item> */}
-          {/* <Carousel.Item>
-            <img
-              className="carousel__image__nosotros"
-              src="/images/nosotros/image_6.png?text=First slide&bg=373940"
-              alt="First slide"
-            />
-          </Carousel.Item> */}
         </Carousel>
       </div>
 
