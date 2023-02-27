@@ -1015,7 +1015,7 @@ footer{
 }
 
 .nosotros__slide{
-  
+  display: none;
 }
 
 .carousel__image__nosotros{
@@ -1604,6 +1604,10 @@ footer{
     display: block;
   }
 
+  .nosotros__slide{
+    display: block;
+  }
+  
   .carousel__image__nosotros{
     height: 320px;
     width: 100%;
