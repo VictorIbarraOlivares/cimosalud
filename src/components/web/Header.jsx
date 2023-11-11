@@ -50,6 +50,9 @@ function Header() {
               <Link to="/especialidades" className="nav__link" onClick={() => setOpenHamburguer(false)}>Especialidades</Link>
             </li>
             <li className="nav__item">
+              <Link to="/convenios" className="nav__link" onClick={() => setOpenHamburguer(false)}>Convenios</Link>
+            </li>
+            <li className="nav__item">
               <Link to="/nuestros-profesionales" className="nav__link" onClick={() => setOpenHamburguer(false)}>Nuestros Profesionales</Link>
             </li>
             {/* <li className="nav__item">

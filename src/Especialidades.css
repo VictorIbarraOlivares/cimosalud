@@ -19,8 +19,32 @@
   font-weight: 700;
 }
 
+.especialidad__title__two{
+  text-align: left;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: var(--color-principal);
+  font-weight: 500;
+}
+
+.especialidad__title__three{
+  text-align: left;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  color: var(--color-principal);
+  font-weight: 400;
+}
+
 .especialidad__paragraph{
   font-weight: 400;
+}
+
+.destacado {
+  font-weight: bold;
+}
+
+.principal_color {
+  color: var(--color-third);
 }
 
 .especialidad__title__list{
@@ -212,6 +236,10 @@
 
   .especialidad__title{
     font-size: 1.5rem;
+  }
+
+  .especialidad__title__two{
+    font-size: 1.2rem;
   }
 }
 
