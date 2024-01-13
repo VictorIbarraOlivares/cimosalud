@@ -88,16 +88,16 @@ function NuestrosProfesionales() {
         <p className="page__nosotros__paragraph">Nuestro personal administrativo y de apoyo tiene habilidades interpersonales excepcionales y está capacitado para ayudarlo con todas las consultas médicas.</p>
       </div> */}
 
-      {/* <div className="page__nosotros__team">
+      <div className="page__nosotros__team">
         <div className="nosotros__team__card">
           <div className="team__card__image">
             <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
           </div>
           <div className="team__card__text">
-            <p className="team__card__name">Arturo Vidal</p>
-            <p className="team__card__profesion">Cirujano Copete</p>
+            <p className="team__card__name">DR. FELIPE ALARCÓN COFRÉ</p>
+            <p className="team__card__profesion">CIRUJANO DENTISTA</p>
             <p className="team__card__description">
-             Arturo Vidal, Cirujano copete, diplomado en Piscola, pacientes en situación de discapacidad y difícil manejo, 5 años de experiencia en curaderas con cocacola y 6 años en cervezas. Gerente general de clínica CIMO.
+              ESPECIALISTA EN IMPLANTOLOGÍA BUCOMAXILOFACIAL
             </p>
           </div>
         </div>
@@ -107,10 +107,10 @@ function NuestrosProfesionales() {
             <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
           </div>
           <div className="team__card__text">
-            <p className="team__card__name">Arturo Vidal</p>
-            <p className="team__card__profesion">Cirujano Copete</p>
+            <p className="team__card__name">DR. MATIAS LEYTON VOELCKER 🤢</p>
+            <p className="team__card__profesion">CIRUJANO DENTISTA</p>
             <p className="team__card__description">
-             Arturo Vidal, Cirujano copete, diplomado en Piscola, pacientes en situación de discapacidad y difícil manejo, 5 años de experiencia en curaderas con cocacola y 6 años en cervezas. Gerente general de clínica CIMO.
+              ESPECIALISTA EN ORTODONCIA 
             </p>
           </div>
         </div>
@@ -120,10 +120,10 @@ function NuestrosProfesionales() {
             <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
           </div>
           <div className="team__card__text">
-            <p className="team__card__name">Arturo Vidal</p>
-            <p className="team__card__profesion">Cirujano Copete</p>
+            <p className="team__card__name">DR. MARCELO ARENAS PASACHE</p>
+            <p className="team__card__profesion">CIRUJANO DENTISTA</p>
             <p className="team__card__description">
-            Arturo Vidal, Cirujano copete, diplomado en Piscola, pacientes en situación de discapacidad y difícil manejo, 5 años de experiencia en curaderas con cocacola y 6 años en cervezas. Gerente general de clínica CIMO.
+              ESTÉTICA FACIAL
             </p>
           </div>
         </div>
@@ -133,14 +133,49 @@ function NuestrosProfesionales() {
             <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
           </div>
           <div className="team__card__text">
-            <p className="team__card__name">Arturo Vidal</p>
-            <p className="team__card__profesion">Cirujano Copete</p>
+            <p className="team__card__name">FLGA. LUCERO ARENAS MORENO </p>
+            <p className="team__card__profesion">ESPECIALISTA EN MOTRICIDAD OROFACIAL Y ESTETICA FACIAL</p>
             <p className="team__card__description">
-             Arturo Vidal, Cirujano copete, diplomado en Piscola, pacientes en situación de discapacidad y difícil manejo, 5 años de experiencia en curaderas con cocacola y 6 años en cervezas. Gerente general de clínica CIMO.
+              ESPECIALISTA EN NEUROREHABILITACIÓN
             </p>
           </div>
         </div>
-      </div> */}
+
+        <div className="nosotros__team__card">
+          <div className="team__card__image">
+            <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
+          </div>
+          <div className="team__card__text">
+            <p className="team__card__name">KLGA. JENNIFER ACUÑA MORALES</p>
+            <p className="team__card__profesion"></p>
+            <p className="team__card__description"></p>
+          </div>
+        </div>
+
+        <div className="nosotros__team__card">
+          <div className="team__card__image">
+            <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
+          </div>
+          <div className="team__card__text">
+            <p className="team__card__name">NATHALIA FERNANDEZ</p>
+            <p className="team__card__profesion">PSICOLOGA ADULTOS </p>
+            <p className="team__card__description"></p>
+          </div>
+        </div>
+
+        <div className="nosotros__team__card">
+          <div className="team__card__image">
+            <img src="images/docs/arturo_vidal.jpg" alt="" className="image__team" />
+          </div>
+          <div className="team__card__text">
+            <p className="team__card__name">XIMENA POBLETE CACERES</p>
+            <p className="team__card__profesion">MASOTERAPEUTA</p>
+            <p className="team__card__description"></p>
+          </div>
+        </div>
+
+
+      </div>
     </div>
   )
 }
