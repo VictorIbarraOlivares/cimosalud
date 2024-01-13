@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import InfoEspecialidades from '../partials/InfoEspecialidades';
+import InfoConvenios from '../partials/InfoConvenios';
 
 function Inicio() {
   return (
@@ -115,6 +116,8 @@ function Inicio() {
       </div>
 
       <InfoEspecialidades />
+
+      <InfoConvenios />
     </div>
   )
 }

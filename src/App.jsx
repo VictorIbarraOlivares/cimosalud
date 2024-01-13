@@ -14,6 +14,7 @@ import Psicologia from "./components/especialidades/Psicologia"
 import Odontologia from "./components/especialidades/Odontologia"
 import Kinesiologia from "./components/especialidades/Kinesiologia"
 import Fonoaudiologia from "./components/especialidades/Fonoaudiologia"
+import Masoterapia from "./components/especialidades/Masoterapia"
 import Especialidades from "./components/especialidades/Especialidades"
 import FonasaOrtodoncia from "./components/convenios/FonasaOrtodoncia"
 import Bomberos from "./components/convenios/Bomberos"
@@ -37,6 +38,7 @@ function App() {
           <Route element={<Fonoaudiologia />} path="/especialidades/fonoaudiologia" />
           <Route element={<Psicologia />} path="/especialidades/psicologia"  />
           <Route element={<Nutricion />} path="/especialidades/nutricion"  />
+          <Route element={<Masoterapia />} path="/especialidades/masoterapia" />
 
           <Route element={<FonasaOrtodoncia />} path="/convenios/fonasa-ortodoncia"  />
           <Route element={<Bomberos />} path="/convenios/bomberos-chile"  />
