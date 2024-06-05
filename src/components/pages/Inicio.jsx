@@ -9,6 +9,23 @@ function Inicio() {
     <div className='inicio__page'>
       <div className='inicio__carousel'>
         <Carousel fade indicators={false}>
+        <Carousel.Item>
+            <img
+              className="carousel__image"
+              src="/images/beneficiario-fonasa.jpg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <div className='carousel__content'>
+                <p className='carousel__text'>Beneficiario FONASA</p>
+                <Link to="/beneficios/fonasa" className="carousel__link" >
+                  <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                  <p className='carousel__link__text__mobile'>Ver más &gt;</p>
+                </Link>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+
           <Carousel.Item>
             <img
               className="carousel__image"

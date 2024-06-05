@@ -6,7 +6,7 @@ function Footer() {
     <div>
       <div className="footer">
         <div className='footer__text'>
-          <span>&#169; 2023 CIMO</span>
+          <span>&#169; 2024 CIMO</span>
         </div>
         <div className='footer__info__desktop'>
           <div>

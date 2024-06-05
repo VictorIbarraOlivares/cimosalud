@@ -18,6 +18,7 @@ import Masoterapia from "./components/especialidades/Masoterapia"
 import Especialidades from "./components/especialidades/Especialidades"
 import FonasaOrtodoncia from "./components/convenios/FonasaOrtodoncia"
 import Bomberos from "./components/convenios/Bomberos"
+import Fonasa from "./components/beneficios/Fonasa"
 
 function App() {
 
@@ -40,8 +41,10 @@ function App() {
           <Route element={<Nutricion />} path="/especialidades/nutricion"  />
           <Route element={<Masoterapia />} path="/especialidades/masoterapia" />
 
-          <Route element={<FonasaOrtodoncia />} path="/convenios/fonasa-ortodoncia"  />
-          <Route element={<Bomberos />} path="/convenios/bomberos-chile"  />
+          <Route element={<FonasaOrtodoncia />} path="/convenios/fonasa-ortodoncia" />
+          <Route element={<Bomberos />} path="/convenios/bomberos-chile" />
+
+          <Route element={<Fonasa />} path="/beneficios/fonasa" />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -209,6 +209,10 @@ footer{
   /* position: relative; */
 }
 
+.destacado {
+  font-weight: bold;
+}
+
 .brand__logo {
   object-fit: fill;
   width: 120px;
