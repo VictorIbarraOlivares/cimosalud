@@ -1,5 +1,6 @@
 import '../../App.css'
 import '../../Especialidades.css'
+import OpcionesFonasa from '../buttons/OpcionesFonasa'
 import ReservaDesktop from '../buttons/ReservaDesktop'
 import ReservaMobile from '../buttons/ReservaMobile'
 function Fonasa() {
@@ -26,6 +27,8 @@ function Fonasa() {
         <p className='especialidad__paragraph'>
         Podrás acceder a la bonificación en todas las especialidades suscritas en este centromédico, el porcentaje de bonificación y copago variará según el grupo al que perteneces.
         </p>
+
+        <OpcionesFonasa />
 
         <ReservaMobile />
       </div>

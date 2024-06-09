@@ -19,6 +19,10 @@ import Especialidades from "./components/especialidades/Especialidades"
 import FonasaOrtodoncia from "./components/convenios/FonasaOrtodoncia"
 import Bomberos from "./components/convenios/Bomberos"
 import Fonasa from "./components/beneficios/Fonasa"
+import FonasaA from "./components/beneficios/FonasaA"
+import FonasaB from "./components/beneficios/FonasaB"
+import FonasaC from "./components/beneficios/FonasaC"
+import FonasaD from "./components/beneficios/FonasaD"
 
 function App() {
 
@@ -45,6 +49,10 @@ function App() {
           <Route element={<Bomberos />} path="/convenios/bomberos-chile" />
 
           <Route element={<Fonasa />} path="/beneficios/fonasa" />
+          <Route element={<FonasaA />} path="/beneficios/fonasa-a" />
+          <Route element={<FonasaB />} path="/beneficios/fonasa-b" />
+          <Route element={<FonasaC />} path="/beneficios/fonasa-c" />
+          <Route element={<FonasaD />} path="/beneficios/fonasa-d" />
         </Route>
       </Routes>
     </BrowserRouter>

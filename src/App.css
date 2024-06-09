@@ -1178,6 +1178,16 @@ footer{
   text-align: left;
 }
 
+.fonasa__paragraph{
+  background-color: var(--color-principal);
+  color: white;
+  font-weight: bolder !important;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+
 @media screen and (max-width:1310px) {
   .page__nosotros__text{
     padding-left: 15rem;
