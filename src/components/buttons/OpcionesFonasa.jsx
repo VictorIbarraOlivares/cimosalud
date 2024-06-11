@@ -15,7 +15,7 @@ function OpcionesFonasa() {
     return (
         <div className="select-button-container">
             <button onClick={toggleMenu} className="select-button">
-                Cobertura Fonasa
+                Cobertura FONASA
             </button>
             {isOpen && (
                 <ul className="dropdown-menu-fonasa">

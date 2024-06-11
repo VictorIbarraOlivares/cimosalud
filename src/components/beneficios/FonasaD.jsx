@@ -1,9 +1,24 @@
 import '../../App.css'
 import '../../Especialidades.css'
-import OpcionesFonasa from '../buttons/OpcionesFonasa'
+import PorcentajesFonasa from '../buttons/PorcentajesFonasa'
 import ReservaDesktop from '../buttons/ReservaDesktop'
 import ReservaMobile from '../buttons/ReservaMobile'
 function FonasaB() {
+  const options = [
+    { text: 'Odontología general', percentage: '50%' },
+    { text: 'Cirugia bucal', percentage: '30%' },
+    { text: 'Endodoncia', percentage: '30%' },
+    { text: 'Odontopediatria', percentage: '35%' },
+    { text: 'Ortodoncia', percentage: '35%' },
+    { text: 'Rehabilitación oral', percentage: '30%' },
+    { text: 'Implantologia', percentage: '30%' },
+    { text: 'Fonoaudiologia', percentage: '50%' },
+    { text: 'Psicologia', percentage: '45%' },
+    { text: 'Periodoncia', percentage: '30%' },
+    { text: 'Masoterapia', percentage: '0%' },
+    { text: 'Estetica facial', percentage: '25%' },
+  ];
+
   return (
     <div className="especialidad__content">
       <div className='especialidad__image__content'>
@@ -14,12 +29,17 @@ function FonasaB() {
       </div>
       <div className='especialidad__text__content'>
         
-
         <ReservaDesktop />
 
         <p className='especialidad__paragraph bolder'>
         <span className='destacado'>
-        TRAMO D: Personas que perciben un ingreso imponible mensual mayor a $642.400.-
+        TRAMO D
+        </span>
+        </p>
+
+        <p className='especialidad__paragraph bolder'>
+        <span className='destacado'>
+        Personas que perciben un ingreso imponible mensual mayor a $642.400.-
         </span>
         </p>
 
@@ -31,58 +51,7 @@ function FonasaB() {
           Cobertura FONASA hasta 50% para Grupo D
         </p>
 
-        <ul className='especialidad__list'>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>ODONTOLOGIA GENERAL 50%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>CIRUGIA BUCAL 30%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>ENDODONCIA 30%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>ODONTOPEDIATRIA 35%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>ORTODONCIA 35%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>REHABILITACIÓN ORAL 30%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>IMPLANTOLOGIA 30%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>FONOAUDIOLOGIA 50%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>PSICOLOGIA 45%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>PERIODONCIA 30%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>MASOTERAPIA 0%</span>
-          </li>
-          <li>
-            <span className='list__style'>&gt;&gt;</span>
-            <span className='especialidad__list__detail'>ESTETICA FACIAL 25%</span>
-          </li>
-        </ul>
-
-        <OpcionesFonasa />
+        <PorcentajesFonasa  options={options} defaultText="Cobertura FONASA"/>
 
         <ReservaMobile />
       </div>

@@ -1,0 +1,59 @@
+/* SelectButton.css */
+.select-button-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.select-button {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: left;
+    align-items: center;
+    letter-spacing: 2px;
+    max-width: fit-content;
+    background-color: var(--color-fourth);
+    color: white;
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-fourth);
+    box-shadow: 2px 2px 10px var(--color-secundario);
+    max-width: none;
+    width: 350px;
+    justify-content: center;
+}
+
+.select-button:hover{
+    background-color: white;
+    color: var(--color-principal);
+    border: 1px solid var(--color-principal);
+  }
+
+.dropdown-menu-fonasa {
+    list-style: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    /* border: 1px solid var(--color-fourth); */
+    /* padding-left: 25px; */
+    padding-top: 10px;
+    padding-left: 0;
+    margin: 0;
+    border-bottom: none;
+}
+
+.dropdown-menu-fonasa li {
+    padding: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid var(--color-fourth);
+    color: var(--color-fourth);
+    font-weight: bold;
+}
+
+.dropdown-menu-fonasa li:hover {
+    background-color: #f1f1f1;
+    color: var(--color-principal);
+}
