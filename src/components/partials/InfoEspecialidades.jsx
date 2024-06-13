@@ -19,12 +19,12 @@ function InfoEspecialidades() {
                     </Link>
                 </div>
 
-                <div className='card__especialidades'>
+                {/* <div className='card__especialidades'>
                     <Link to="/especialidades/kinesiologia" className="info__card__especialidades">
                         <svg className='info__card__especialidades__icon iconify iconify--medical-icon' width="70px" height="70px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet" fill="#00b495"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M30.827 19.223a5.887 5.887 0 0 0 5.892-5.881a5.884 5.884 0 0 0-5.892-5.879c-3.255 0-5.893 2.632-5.893 5.879a5.889 5.889 0 0 0 5.893 5.881z" fill="#00b495"></path><path d="M48.78 58.98H1.806c-1.323 0-1.187 1.04-1.187 1.04v1.731S.499 64 2.809 64h58.817c2.325 0 2.199-2.197 2.199-2.197v-4.794s-.197-1.516-1.98-1.516h-5.732c-1.965 0-3.589 3.486-7.332 3.486z" fill="#00b495"></path><path d="M53.348 48.358c0 2.922 2.378 5.295 5.308 5.295c2.929 0 5.313-2.374 5.313-5.295c0-2.933-2.384-5.297-5.313-5.297a5.298 5.298 0 0 0-5.308 5.297z" fill="#00b495"></path><path d="M35.997 38.255a3.77 3.77 0 0 1-2.269 2.36l-4.727 1.753l1.744 1.731h7.98l-.005-12.215l-2.671 6.297c-.013.03-.037.047-.053.074z" fill="#00b495"></path><path d="M47.458 47.001h-16.5l-3.978-3.884l-2.769 1.02c-2.054.735-4.555-.387-5.326-2.428c-.454-1.267-.391-2.682.367-3.713c-.339-.015-10.007 0-10.007 0a2.906 2.906 0 0 0-2.915 2.898c0 1.607 1.307 2.863 2.915 2.863h9.843l3.903 5.909L2.84 51.285a2.909 2.909 0 0 0 .651 5.745l22.609.003a4.133 4.133 0 0 1-.629-2.177a4.176 4.176 0 0 1 4.173-4.173h9.046l7.331-1.531l.407 1.947l-7.533 1.573h-9.252a2.18 2.18 0 0 0-.044 4.361l17.898.002a5.014 5.014 0 0 0 4.992-5.013A5.023 5.023 0 0 0 47.458 47z" fill="#00b495"></path><path d="M23.862 42.315a2.309 2.309 0 0 1-3.038-1.185a2.303 2.303 0 0 1 1.187-3.04l8.401-3.154l2.596-6.192l-1.692-.625l-2.207 5.302l-6.395 2.355v-6.482l-6.251 6.827l-7.074-.007s12.379-13.57 12.766-13.976c.513-.509 1.686-1.353 3.898-1.353h7.949c4.516 0 5.385 4.502 4.461 6.832l-4.157 10.082a2.344 2.344 0 0 1-1.338 1.261l-9.106 3.353z" fill="#00b495"></path></g></svg>
                         Kinesiología
                     </Link>
-                </div>
+                </div> */}
 
                 <div className='card__especialidades'>
                     <Link to="/especialidades/psicologia" className="info__card__especialidades">
@@ -33,26 +33,26 @@ function InfoEspecialidades() {
                     </Link>
                 </div>
 
-                <div className='card__especialidades'>
+                {/* <div className='card__especialidades'>
                     <Link to="/especialidades/nutricion" className="info__card__especialidades">
                         <svg className='info__card__especialidades__icon' fill="#00b495" height="65px" width="65px" version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" xmlSpace="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_11_" d="M29.8,166.1c0.6-20-10.3-27.6-23.6-32.6C1.8,150.7,14,165,29.8,166.1"></path> <path id="XMLID_10_" d="M32.8,76.7c8.5-18.2,1.4-29.4-8.8-39.3C13.3,51.4,18.8,69.4,32.8,76.7"></path> <path id="XMLID_9_" d="M37.6,127.2c-0.6-20,10.3-27.6,23.6-32.6C65.6,111.8,53.4,126,37.6,127.2"></path> <path id="XMLID_8_" d="M37.6,158.1c-0.6-20,10.3-27.6,23.6-32.6C65.6,142.7,53.4,156.9,37.6,158.1"></path> <path id="XMLID_7_" d="M37.6,96.3c-0.6-20,10.3-27.6,23.6-32.6C65.6,80.9,53.4,95.2,37.6,96.3"></path> <path id="XMLID_6_" d="M29.8,135.3c0.6-20-10.3-27.6-23.6-32.6C1.8,119.8,14,134.1,29.8,135.3"></path> <path id="XMLID_5_" d="M29.8,104.4c0.6-20-10.3-27.6-23.6-32.6C1.8,89,14,103.2,29.8,104.4"></path> <path id="XMLID_16_" d="M179.9,255.4H72.5l53.7-93L179.9,255.4z"></path> <polygon id="XMLID_3_" points="14.2,192.1 241.7,130.2 238.3,117.7 10.8,179.6 "></polygon> <path id="XMLID_2_" d="M174.7,0.6c0,0,1.7,32.8,30.4,30C205.1,30.7,208.4,3.2,174.7,0.6"></path> <path id="XMLID_1_" d="M204.8,107.4c-3,4.3-8,7-13.6,7c-4.6,0-9.1-2.2-12.1-5.2c-6.2-6.8-14.2-21.9-14.2-21.9 c-4.5-9.1-6.9-16.2-6.9-23.4c0-15.2,12.3-28.4,27.6-28.4c7.5,0,14.3,3,19.3,7.9c5-4.9,11.8-7.9,19.3-7.9c15.3,0,27.6,13.2,27.6,28.4 c0,7.1-2.4,14.2-6.9,23.4c0,0-8,15.1-14.2,21.9c-3,3-7.5,5.2-12.1,5.2C212.8,114.4,207.8,111.6,204.8,107.4"></path> </g></svg>
                         Nutrición
                     </Link>
-                </div>
+                </div> */}
 
-                <div className='card__especialidades'>
+                {/* <div className='card__especialidades'>
                     <Link to="/especialidades/masoterapia" className="info__card__especialidades">
                         <svg className='info__card__especialidades__icon' width="65px" height="65px" viewBox="0 -0.5 65 65" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"  preserveAspectRatio="xMidYMid meet" fill="#00b495"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path className="cls-1" d="M12.051 22.086a14.038 14.038 0 0 0-2.62-9.656a14.057 14.057 0 0 0-8.365-5.493a14.04 14.04 0 0 0 2.618 9.659a14.037 14.037 0 0 0 8.368 5.49z" fill="#00b495"></path><path className="cls-1" d="M10.684 11.521a15.946 15.946 0 0 1 1.407 2.357c.401-.822.864-1.614 1.402-2.357a15.699 15.699 0 0 1 2.077-2.322a14.027 14.027 0 0 0-3.454-7.783a14.046 14.046 0 0 0-3.457 7.829c.74.688 1.421 1.445 2.024 2.276z" fill="#00b495"></path><path d="M23.114 6.937a14.051 14.051 0 0 0-8.365 5.493a14.16 14.16 0 0 0-1.849 3.487c.592 1.842.843 3.786.722 5.743a14.027 14.027 0 0 0 6.874-5.064a14.03 14.03 0 0 0 2.618-9.659z" fill="#00b495"></path><path className="cls-1" d="M40.688 10.103a5.7 5.7 0 1 0 .001 11.403a5.7 5.7 0 0 0-.001-11.403z" fill="#00b495"></path><path className="cls-1" d="M55.46 33.908l-2.896-8.259c-.562-1.555-1.642-2.772-4.689-2.772h-13.38c-3.045 0-4.127 1.217-4.687 2.772l-2.896 8.259c-.218.534-.33 1.733.849 2.536l6.814 4.493a2.158 2.158 0 1 0 2.377-3.603l-5.409-3.568l1.524-4.202h2.107l-1.235 3.409l4.105 2.709a4.103 4.103 0 0 1 1.776 2.625a4.115 4.115 0 0 1-.599 3.111a4.173 4.173 0 0 1-.877.948h5.684a4.196 4.196 0 0 1-.877-.948a4.117 4.117 0 0 1-.599-3.111a4.105 4.105 0 0 1 1.776-2.625l4.105-2.709l-1.236-3.409h2.107l1.526 4.202l-5.409 3.568a2.159 2.159 0 1 0 2.377 3.603l6.814-4.493c1.178-.803 1.064-2.002.849-2.536z" fill="#00b495"></path><path className="cls-1" d="M53.042 46.36a5.235 5.235 0 0 1 5.236-5.236a5.241 5.241 0 0 1 5.243 5.236c0 2.887-2.353 5.238-5.243 5.238s-5.236-2.351-5.236-5.238z" fill="#00b495"></path><path className="cls-1" d="M2.153 56.858a1.17 1.17 0 0 0-1.17 1.168v1.565S.867 61.81 3.147 61.81h58.06c2.293 0 2.177-2.166 2.177-2.166v-4.733s-.196-1.513-1.959-1.513h-5.663c-1.939 0-3.539 3.459-7.237 3.459H2.153z" fill="#00b495"></path><path className="cls-1" d="M47.2 45.023H30.913l-6.777 1.038l.313-6.7h-1.136l.317 6.777l-4.732.724l.351-7.361h-1.144l.349 7.43l-6.441.987l.338-7.405h-1.116l.336 7.471l-7.723 1.183c-.054 0-.106.013-.16.017l.326-6.956H2.889l.316 7.019a2.868 2.868 0 0 0 .642 5.663l22.269.002a4.072 4.072 0 0 1-.623-2.149a4.118 4.118 0 0 1 4.114-4.114h8.919l7.23-1.51l.401 1.92l-7.428 1.551h-9.122a2.151 2.151 0 0 0-.029 4.302l17.66.002a4.943 4.943 0 0 0 4.922-4.941a4.952 4.952 0 0 0-4.96-4.953z" fill="#00b495"></path></g></svg>
                         Masoterapia
                     </Link>
-                </div>
+                </div> */}
 
-                {/* <div className='card__especialidades'>
+                <div className='card__especialidades'>
                     <Link to="/especialidades/medicina-general" className="info__card__especialidades">
                         <svg className='info__card__especialidades__icon' width="65px" height="65px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> </defs> <g id="ic-medicine-heart-hear"> <path className="cls-1" d="M13,3h3V7a6,6,0,0,1-6,6h0A6,6,0,0,1,4,7V3H7"></path> <path className="cls-1" d="M10,13v4.5A4.49,4.49,0,0,0,14.5,22h0A4.49,4.49,0,0,0,19,17.5V15"></path> <circle className="cls-1" cx="19" cy="13" r="2"></circle> </g> </g></svg>
                         Medicina General
                     </Link>
-                </div> */}
+                </div>
             </div>
         </div>
     )
