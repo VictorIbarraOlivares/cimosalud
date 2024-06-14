@@ -1,6 +1,5 @@
 import '../../App.css'
 import '../../Especialidades.css'
-import OpcionesFonasa from '../buttons/OpcionesFonasa'
 import ReservaDesktop from '../buttons/ReservaDesktop'
 import ReservaMobile from '../buttons/ReservaMobile'
 function Medicina() {
@@ -8,26 +7,23 @@ function Medicina() {
     <div className="especialidad__content">
       <div className='especialidad__image__content'>
         <img className='especialidad__image__medica' src="/images/especialidades/area_medica.jpg" alt="" />
-        <div className="especialidad__image__text__content">
-            <span class="especialidad__image__text">Medicina general</span>
-        </div>
       </div>
       <div className='especialidad__text__content'>
-        <h1 className='especialidad__title'></h1>
+        <h1 className='especialidad__title'>Masoterapia</h1>
 
         <ReservaDesktop />
 
         <p className='especialidad__paragraph'>
-        El Médico general de CIMO SALUD te proporcionará una atención integral de tipo ambulatoria para la resolución de las enfermedades o condiciones agudas y crónicas que te pueden llevar a consultar.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed recusandae in iste quaerat provident similique modi hic itaque accusantium. Quam tempore voluptas nemo aut optio eum cumque officiis perspiciatis provident?
         </p>
 
         <p className='especialidad__paragraph'>
-        Nuestros profesionales médicos se encuentran con registro en la superintendencia de salud además de su EUNACOM (examen teórico- práctico de medicina general) válidamente rendido y aprobado.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, reprehenderit est possimus deleniti qui placeat eos excepturi ipsa! Quis enim dolore quaerat cumque, temporibus magni ad commodi aliquam quas error.
         </p>
 
         <p className='especialidad__title__list'>Las áreas que puedes consultar son:</p>
 
-        <ul className='especialidad__list'>
+        {/* <ul className='especialidad__list'>
           <li>
             <span className='list__style'>&gt;&gt;</span>
             <span className='especialidad__list__detail'>Medicina general adulto</span>
@@ -36,9 +32,8 @@ function Medicina() {
             <span className='list__style'>&gt;&gt;</span>
             <span className='especialidad__list__detail'>Medicina general infantil</span>
           </li>
-        </ul>
+        </ul> */}
 
-        <OpcionesFonasa />
         <ReservaMobile />
       </div>
     </div>

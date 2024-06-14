@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import InfoEspecialidades from '../partials/InfoEspecialidades';
+import InfoConvenios from '../partials/InfoConvenios';
 
 function Inicio() {
   return (
@@ -11,51 +12,20 @@ function Inicio() {
           <Carousel.Item>
             <img
               className="carousel__image"
-              src="/images/especialidades/area_medica.jpg?text=First slide&bg=373940"
+              src="/images/beneficiario-fonasa.jpg?text=First slide&bg=373940"
               alt="First slide"
             />
             <Carousel.Caption>
               <div className='carousel__content'>
-                <p className='carousel__text'>Medicina General</p>
-                <Link to="/especialidades/medicina-general" className="carousel__link" >
+                <p className='carousel__text'>Beneficiario FONASA</p>
+                <Link to="/beneficios/fonasa" className="carousel__link" >
                   <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
                   <p className='carousel__link__text__mobile'>Ver más &gt;</p>
                 </Link>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="carousel__image"
-              src="/images/especialidades/area_odontologia.jpg?text=First slide&bg=373940"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <div className='carousel__content'>
-                <p className='carousel__text'>Odontología</p>
-                <Link to="/especialidades/odontologia" className="carousel__link" >
-                  <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
-                  <p className='carousel__link__text__mobile'>Ver más &gt;</p>
-                </Link>
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="carousel__image"
-              src="/images/especialidades/area_kinesiologia.jpg?text=First slide&bg=373940"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <div className='carousel__content'>
-                <p className='carousel__text'>Kinesiología</p>
-                <Link to="/especialidades/kinesiologia" className="carousel__link" >
-                  <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
-                  <p className='carousel__link__text__mobile'>Ver más &gt;</p>
-                </Link>
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
+
           <Carousel.Item>
             <img
               className="carousel__image"
@@ -72,6 +42,24 @@ function Inicio() {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="carousel__image"
+              src="/images/especialidades/area_odontologia.jpg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <div className='carousel__content'>
+                <p className='carousel__text'>Odontología</p>
+                <Link to="/especialidades/odontologia" className="carousel__link" >
+                  <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                  <p className='carousel__link__text__mobile'>Ver más &gt;</p>
+                </Link>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+
           <Carousel.Item>
             <img
               className="carousel__image"
@@ -88,19 +76,54 @@ function Inicio() {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <img
               className="carousel__image"
-              src="/images/especialidades/area_nutricion.jpg?text=First slide&bg=373940"
+              src="/images/especialidades/area_psicologia.jpg?text=First slide&bg=373940"
               alt="First slide"
             />
             <Carousel.Caption>
               <div className='carousel__content'>
-                <p className='carousel__text'>Nutrición</p>
-                <Link to="/especialidades/nutricion" className="carousel__link" >
+                <p className='carousel__text'>Terapia Ocupacional</p>
+                <Link to="/especialidades/terapia-ocupacional" className="carousel__link" >
                   <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
                   <p className='carousel__link__text__mobile'>Ver más &gt;</p>
                 </Link>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="carousel__image"
+              src="/images/especialidades/area_medica.jpg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <div className='carousel__content'>
+                <p className='carousel__text'>Medicina General</p>
+                <Link to="/especialidades/medicina-general" className="carousel__link" >
+                  <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                  <p className='carousel__link__text__mobile'>Ver más &gt;</p>
+                </Link>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="carousel__image"
+              src="/images/especialidades/area_psicologia.jpg?text=First slide&bg=373940"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <div className='carousel__content'>
+                <p className='carousel__text'>Masoterapia</p>
+                {/* <Link to="/especialidades/masoterapia" className="carousel__link" >
+                  <p className='carousel__link__text__desktop'>Conoce más aquí &gt;</p>
+                  <p className='carousel__link__text__mobile'>Ver más &gt;</p>
+                </Link> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -115,6 +138,8 @@ function Inicio() {
       </div>
 
       <InfoEspecialidades />
+
+      <InfoConvenios />
     </div>
   )
 }

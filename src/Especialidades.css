@@ -5,10 +5,33 @@
   letter-spacing: 2px;
 }
 
-.especialidad__image__medica{
+.especialidad__image__content {
+  position: relative;
+}
+
+.especialidad__image__medica {
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   object-fit: cover;
+  opacity: 0.4;
+}
+
+.especialidad__image__text__content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  background-color: var(--color-principal);
+  opacity: 0.7;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.especialidad__image__text {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .especialidad__title{
@@ -19,8 +42,33 @@
   font-weight: 700;
 }
 
+.especialidad__title__two{
+  text-align: left;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: var(--color-principal);
+  font-weight: 500;
+}
+
+.especialidad__title__three{
+  text-align: left;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  color: var(--color-principal);
+  font-weight: 400;
+}
+
 .especialidad__paragraph{
   font-weight: 400;
+  text-align: justify;
+}
+
+.destacado {
+  font-weight: bold;
+}
+
+.principal_color {
+  color: var(--color-third);
 }
 
 .especialidad__title__list{
@@ -138,7 +186,7 @@
 
 @media screen and (max-width: 800px) {
   .especialidad__content{
-    padding: 0rem;
+    padding: 0.6rem 0rem;
   }
 
   .especialidad__text__content{
@@ -212,6 +260,10 @@
 
   .especialidad__title{
     font-size: 1.5rem;
+  }
+
+  .especialidad__title__two{
+    font-size: 1.2rem;
   }
 }
 

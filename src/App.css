@@ -209,6 +209,10 @@ footer{
   /* position: relative; */
 }
 
+.destacado {
+  font-weight: bold;
+}
+
 .brand__logo {
   object-fit: fill;
   width: 120px;
@@ -1174,6 +1178,23 @@ footer{
   text-align: left;
 }
 
+.fonasa__paragraph{
+  background-color: var(--color-principal);
+  color: white;
+  font-weight: bolder !important;
+  text-align: center !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+
+.content__btns__fonasa{
+  display: flex;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  justify-content: space-between;
+}
+
 @media screen and (max-width:1310px) {
   .page__nosotros__text{
     padding-left: 15rem;
@@ -1354,6 +1375,16 @@ footer{
     width: 100%;
     flex-direction: column;
     padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content__btns__fonasa{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

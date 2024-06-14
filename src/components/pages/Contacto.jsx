@@ -5,7 +5,7 @@ function Contacto() {
       <div className='especialidad__text__content'>
         <p className='info__especialidades__paragraph'>Contacto</p>
         <p className='nosotros__paragraph'>
-          ¡Visítanos! Estamos ubicados en Padre Mariano 10, Providencia.
+          ¡Visítanos! Estamos ubicados en Padre Mariano 10, Oficina 701, Providencia.
           Estamos a pasos del Metro Pedro de Valdivia (salida norte)
         </p>
 
