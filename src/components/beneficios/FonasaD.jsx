@@ -1,5 +1,6 @@
 import '../../App.css'
 import '../../Especialidades.css'
+import OpcionesFonasa from '../buttons/OpcionesFonasa'
 import PorcentajesFonasa from '../buttons/PorcentajesFonasa'
 import ReservaDesktop from '../buttons/ReservaDesktop'
 import ReservaMobile from '../buttons/ReservaMobile'
@@ -51,7 +52,10 @@ function FonasaB() {
           Cobertura FONASA hasta 50% para Grupo D
         </p>
 
-        <PorcentajesFonasa  options={options} defaultText="Cobertura FONASA"/>
+        <div className='content__btns__fonasa' >
+          <PorcentajesFonasa  options={options} defaultText="Cobertura Tramo D"/>
+          <OpcionesFonasa textButton="Selecciona tu tramo" />
+        </div>
 
         <ReservaMobile />
       </div>

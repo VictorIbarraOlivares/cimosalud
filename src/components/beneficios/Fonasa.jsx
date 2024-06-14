@@ -28,7 +28,7 @@ function Fonasa() {
         Podrás acceder a la bonificación en todas las especialidades suscritas en este centromédico, el porcentaje de bonificación y copago variará según el grupo al que perteneces.
         </p>
 
-        <OpcionesFonasa />
+        <OpcionesFonasa textButton="Tramos FONASA" />
 
         <ReservaMobile />
       </div>

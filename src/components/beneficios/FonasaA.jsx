@@ -52,7 +52,11 @@ function FonasaA() {
           Cobertura FONASA hasta 60% para Grupo A
         </p>
 
-        <PorcentajesFonasa  options={options} defaultText="Cobertura FONASA"/>
+        <div className='content__btns__fonasa' >
+          <PorcentajesFonasa  options={options} defaultText="Cobertura Tramo A"/>
+
+          <OpcionesFonasa textButton="Selecciona tu tramo" />
+        </div>
 
         <ReservaMobile />
       </div>
