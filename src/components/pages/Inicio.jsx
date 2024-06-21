@@ -80,7 +80,7 @@ function Inicio() {
           <Carousel.Item>
             <img
               className="carousel__image"
-              src="/images/especialidades/area_psicologia.jpg?text=First slide&bg=373940"
+              src="/images/especialidades/terapiaocupacional.jpg?text=First slide&bg=373940"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -114,7 +114,7 @@ function Inicio() {
           <Carousel.Item>
             <img
               className="carousel__image"
-              src="/images/especialidades/area_psicologia.jpg?text=First slide&bg=373940"
+              src="/images/especialidades/masoterapia.jpg?text=First slide&bg=373940"
               alt="First slide"
             />
             <Carousel.Caption>

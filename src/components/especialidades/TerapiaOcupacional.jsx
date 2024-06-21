@@ -8,7 +8,7 @@ function TerapiaOcupacional() {
   return (
     <div className="especialidad__content">
       <div className='especialidad__image__content'>
-        <img className='especialidad__image__medica' src="/images/especialidades/area_psicologia.jpg" alt="" />
+        <img className='especialidad__image__medica' src="/images/especialidades/terapiaocupacional.jpg" alt="" />
         <div className="especialidad__image__text__content">
             <span class="especialidad__image__text">Terapia Ocupacional</span>
         </div>
