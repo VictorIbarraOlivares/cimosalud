@@ -1259,6 +1259,16 @@ footer{
   }
 }
 
+@media (min-width: 1018px) and (max-width:1198px) {
+  .nav__link {
+    padding: 1rem 1rem;
+    letter-spacing: 2px;
+  }
+  .nav__navigation{
+    margin-right: 1px;
+  }
+}
+
 @media screen and (max-width:1060px) {
   .info__mision{
     height: auto;
@@ -1315,7 +1325,7 @@ footer{
   }
 
   .nav__navigation{
-    padding-right: 0rem;
+    /* padding-right: 0rem; */
   }
 }
 
